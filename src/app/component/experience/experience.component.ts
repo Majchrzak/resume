@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { ProfileService } from 'src/app/service/profile.service';
 
 @Component({
   selector: 'app-experience',
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.scss']
 })
-export class ExperienceComponent implements OnInit {
+export class ExperienceComponent {
 
-  constructor() { }
+  experience$ = this.profileService.experience$;
 
-  ngOnInit(): void {
-  }
+  constructor(
+    private readonly profileService: ProfileService
+  ) { }
 
 }

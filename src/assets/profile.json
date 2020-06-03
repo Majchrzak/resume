@@ -2,6 +2,75 @@
     "profile": {
         "overview": {
             "name": "Mateusz Majchrzak"
-        }
+        },
+
+        "experience": [
+            {
+                "role": "Software Developer",
+                "company": "ITMAGINATION",
+                "location": "(remote)",
+                "summary": "",
+                "responsibilities": [
+                    "Developing processes which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship.",
+                    "Developed automotive application for iOS and Android"
+                ]
+            },
+            {
+                "role": "Senior .NET Developer",
+                "company": "Order Group",
+                "location": "Warsaw",
+                "summary": "",
+                "responsibilities": [
+                    "Designing application architecture.",
+                    "Optimizing memory and CPU/GPU performance in order to improve device stability and battery life.",
+                    "Adopting and extending Tangram-ES map rendering library (OpenGL ES).",
+                    "Creating native bindings to managed code.",
+                    "Developing user interface based on provided mockups (XIB, XAML).",
+                    "Creating fully automated build processes using CMake and MSBuild.",
+                    "Participating in testing and bug ﬁxing processes.",
+                    "Working closely with backend team, implementing application web interface (REST).",
+                    "Performing code reviews to keep systems up to standards.",
+                    "Working with clients to provide best solutions and validate requirements.",
+                    "Managing App Store and Windows Store deployments and publication processes."
+                ]
+            },
+            {
+                "role": "Mobile .NET Developer",
+                "company": "Freelancer",
+                "location": "Warsaw",
+                "summary": "",
+                "responsibilities": [
+                    "Deﬁning and creating a communication protocol built on top of blockchain technology.",
+                    "Designing and developing secure token authentication client.",
+                    "Implementing end-to-end data encryption based on Elliptic Curves.",
+                    "Developing hierarchical deterministic Bitcoin wallet.",
+                    "Designing and developing user interface (AXML).",
+                    "Participating in testing and bug ﬁxing processes."
+                ]
+            },
+            {
+                "role": "Unity 3D Developer ",
+                "company": "Fuero Games",
+                "location": "Warsaw",
+                "summary": "",
+                "responsibilities": [
+                    "Deﬁning and creating a communication protocol built on top of blockchain technology.",
+                    "Designing and developing secure token authentication client.",
+                    "Implementing end-to-end data encryption based on Elliptic Curves.",
+                    "Developing hierarchical deterministic Bitcoin wallet.",
+                    "Designing and developing user interface (AXML).",
+                    "Participating in testing and bug ﬁxing processes."
+                ]
+            }
+        ],
+
+        "skills": [
+            "C#",
+            "TypeScript",
+            ".NET Core",
+            ".NET Framework",
+            "Xamarin",
+            "Unity 3D"
+        ]
     }
 }

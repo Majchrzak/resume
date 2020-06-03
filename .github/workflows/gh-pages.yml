@@ -13,20 +13,18 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    
     steps:
     - uses: actions/checkout@v2
-    - name: install dependencies
+    - name: Build Angular App
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
     - run: npm install
     - run: npm install -g @angular/cli > /dev/null
-      
-    - name: build project
     - run: ng build --prod
-
+      
     - name: deploy to github pages
-      uses: crazy-max/ghaction-github-pages@v2.0.1
+    - uses: crazy-max/ghaction-github-pages@v2.0.1
       with:
         build_dir: "./dist/Resume/"

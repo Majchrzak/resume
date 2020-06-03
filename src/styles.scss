@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 900px;
+    }
+}

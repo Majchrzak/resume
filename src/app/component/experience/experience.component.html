@@ -1,1 +1,7 @@
-<p>experience works!</p>
+<h1>Experience</h1>
+
+<div *ngFor="let experience of (experience$ | async)">
+    <ul>
+        <li *ngFor="let resposibility of experience.responsibilities">{{resposibility}}</li>
+    </ul>
+</div>

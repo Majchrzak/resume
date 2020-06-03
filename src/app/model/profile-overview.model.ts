@@ -1,3 +1,3 @@
-export interface ProfileOverview {
-    name: string,
+export interface ProfileOverviewModel {
+    name: string;
 }

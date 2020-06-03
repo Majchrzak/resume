@@ -1,5 +1,8 @@
-import { ProfileOverview } from './profile-overview.model';
+import { ProfileOverviewModel } from './profile-overview.model';
+import { ProfileExperienceModel } from './profile-experience.model';
 
 export interface ProfileModel {
-    overview: ProfileOverview,
+    overview: ProfileOverviewModel;
+    experience: ProfileExperienceModel[];
+    skills: string[];
 }

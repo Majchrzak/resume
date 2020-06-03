@@ -25,6 +25,6 @@ jobs:
     - run: ng build --prod
       
     - name: deploy to github pages
-    - uses: crazy-max/ghaction-github-pages@v2.0.1
+      uses: crazy-max/ghaction-github-pages@v2.0.1
       with:
         build_dir: "./dist/Resume/"

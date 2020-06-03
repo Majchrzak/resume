@@ -1,6 +1,10 @@
-<h1>Experience</h1>
+<h1>Commercial Experience</h1>
 
 <div *ngFor="let experience of (experience$ | async)">
+    <h2>{{experience.role}} <span class="company">{{experience.company}}</span></h2>
+    <div class="overview">
+        <span class="period">12.2020 - 10.2021</span>
+    </div>
     <ul>
         <li *ngFor="let resposibility of experience.responsibilities">{{resposibility}}</li>
     </ul>

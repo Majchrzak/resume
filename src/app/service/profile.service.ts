@@ -18,6 +18,11 @@ export class ProfileService {
         distinctUntilChanged()
     );
 
+    contribution$ = this.state.pipe(
+        map(it => it.contribution),
+        distinctUntilChanged()
+    );
+
     skills$ = this.state.pipe(
         map(it => it.skills),
         distinctUntilChanged()

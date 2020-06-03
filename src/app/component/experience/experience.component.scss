@@ -1,7 +1,7 @@
-h2 {
+.role {
     font-size: 1rem;
     text-transform: uppercase;
-    margin-bottom: 0;
+    font-weight: 700;
 }
 
 h2 span {
@@ -17,10 +17,7 @@ ul {
 
 li {
     list-style-type: square;
-}
-
-.period {
-    color: #666;
+    margin: .3rem 0 .3rem 0;
 }
 
 .overview {

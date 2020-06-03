@@ -6,46 +6,32 @@
 
         "experience": [
             {
-                "role": "Software Developer",
+                "role": ".NET Senior Developer",
                 "company": "ITMAGINATION  sp. z o.o.",
                 "location": "(remote)",
                 "summary": "",
                 "responsibilities": [
-                    "Developing processes which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship.",
-                    "Developed automotive application for iOS and Android"
+                    "Developed, designed and advised trading platform with aggregates exchanges located around the world to generate passive income; designed several trading strategies i.a. arbitrage, market making, hedge, relative value; working with data teammates to optimize, backest and improve algorithms; managing fund portfolio;",
+                    "Developed Know Your Customer web application which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship for BNP Paribas;"
                 ]
             },
             {
-                "role": "Senior .NET Developer",
+                "role": ".NET/C++ Senior Developer",
                 "company": "Order Group  sp. z o.o.",
                 "location": "Warsaw",
                 "summary": "",
                 "responsibilities": [
-                    "Designing application architecture.",
-                    "Optimizing memory and CPU/GPU performance in order to improve device stability and battery life.",
-                    "Adopting and extending Tangram-ES map rendering library (OpenGL ES).",
-                    "Creating native bindings to managed code.",
-                    "Developing user interface based on provided mockups (XIB, XAML).",
-                    "Creating fully automated build processes using CMake and MSBuild.",
-                    "Participating in testing and bug ﬁxing processes.",
-                    "Working closely with backend team, implementing application web interface (REST).",
-                    "Performing code reviews to keep systems up to standards.",
-                    "Working with clients to provide best solutions and validate requirements.",
-                    "Managing App Store and Windows Store deployments and publication processes."
+                    "Developed mobile navigation used by Polish Medical Air Rescue and Polish Air Force University pilots for iOS and UWP; designed application architecture; adopted and extended Tangram-ES map rendering library; build product backlog items;"
                 ]
             },
             {
-                "role": "Mobile .NET Developer",
-                "company": "Freelancer",
+                "role": ".NET Regular Developer",
+                "company": "Freelance",
                 "location": "Warsaw",
                 "summary": "",
                 "responsibilities": [
-                    "Deﬁning and creating a communication protocol built on top of blockchain technology.",
-                    "Designing and developing secure token authentication client.",
-                    "Implementing end-to-end data encryption based on Elliptic Curves.",
-                    "Developing hierarchical deterministic Bitcoin wallet.",
-                    "Designing and developing user interface (AXML).",
-                    "Participating in testing and bug ﬁxing processes."
+                    "Developed secure decentralized messaging application for Android; designed end-to-end communication protocol based on Bitcoin network; developed another one Bitcoin wallet;",
+                    "Developed e-commerce platform clients for iOS and Android; designed user interface based on website;"
                 ]
             },
             {
@@ -64,13 +50,47 @@
             }
         ],
 
+        "contribution": [
+            {
+                "role": "Software Developer",
+                "company": "ITMAGINATION  sp. z o.o.",
+                "location": "(remote)",
+                "summary": "",
+                "responsibilities": [
+                    "Developing processes which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship.",
+                    "Developed automotive application for iOS and Android"
+                ]
+            }
+        ],
+
         "skills": [
+            "DDD",
+            "TDD",
             "C#",
-            "TypeScript",
             ".NET Core",
             ".NET Framework",
             "Xamarin",
-            "Unity 3D"
+            "Unity 3D",
+            "Angular 2",
+            "TypeScript",
+            "CSS",
+            "SCSS",
+            "HTML",
+            "RxJS",
+            "Dart",
+            "Flutter",
+            "SQL Server",
+            "PostgreSQL",
+            "MongoDb",
+            "Docker",
+            "AWS",
+            "Azure DevOps",
+            "RabbitMQ",
+            "Git",
+            "SCRUM",
+            "Visual Studio",
+            "VSCode",
+            "Rider"
         ]
     }
 }

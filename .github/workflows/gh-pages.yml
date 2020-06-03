@@ -22,7 +22,7 @@ jobs:
         node-version: '12.x'
     - run: npm install
     - run: npm install -g @angular/cli > /dev/null
-    - run: ng build --prod
+    - run: ng build --prod --base-href "/resume/"
       
     - name: deploy to github pages
       uses: crazy-max/ghaction-github-pages@v2.0.1

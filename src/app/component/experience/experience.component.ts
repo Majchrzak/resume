@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { ProfileService } from 'src/app/service/profile.service';
+import { Component, Input } from '@angular/core';
+import { ProfileExperienceModel } from 'src/app/model/profile-experience.model';
 
 @Component({
   selector: 'app-experience',
@@ -8,10 +8,7 @@ import { ProfileService } from 'src/app/service/profile.service';
 })
 export class ExperienceComponent {
 
-  experience$ = this.profileService.experience$;
-
-  constructor(
-    private readonly profileService: ProfileService
-  ) { }
+  @Input()
+  experience: ProfileExperienceModel;
 
 }

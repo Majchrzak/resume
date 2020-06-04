@@ -9,6 +9,8 @@ import { FooterComponent } from './component/footer/footer.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { SkillsComponent } from './component/skills/skills.component';
 import { AboutComponent } from './component/about/about.component';
+import { ContributionComponent } from './component/contribution/contribution.component';
+import { CertificationComponent } from './component/certification/certification.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { AboutComponent } from './component/about/about.component';
     FooterComponent,
     ContactComponent,
     SkillsComponent,
-    AboutComponent
+    AboutComponent,
+    ContributionComponent,
+    CertificationComponent
   ],
   imports: [
     BrowserModule

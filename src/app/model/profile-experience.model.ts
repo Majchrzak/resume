@@ -3,5 +3,6 @@ export interface ProfileExperienceModel {
     company: string;
     location: string;
     summary: string;
+    period: string;
     responsibilities: string[];
 }

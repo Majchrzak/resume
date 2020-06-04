@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { ProfileService } from 'src/app/service/profile.service';
+import { Component, Input } from '@angular/core';
+import { ProfileOverviewModel } from 'src/app/model/profile-overview.model';
 
 @Component({
   selector: 'app-headline',
@@ -8,10 +8,7 @@ import { ProfileService } from 'src/app/service/profile.service';
 })
 export class HeadlineComponent {
 
-  overview$ = this.profileService.overview$;
-
-  constructor(
-    private readonly profileService: ProfileService
-  ) { }
+  @Input()
+  overview: ProfileOverviewModel;
 
 }

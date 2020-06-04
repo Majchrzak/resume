@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ProfileOverviewModel } from 'src/app/model/profile-overview.model';
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })
-export class ContactComponent implements OnInit {
+export class ContactComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  @Input()
+  overview: ProfileOverviewModel;
 
 }

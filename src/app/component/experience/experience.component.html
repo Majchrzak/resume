@@ -1,9 +1,8 @@
 <h1>Commercial Experience</h1>
 
 <div *ngFor="let experience of experience">
-    <div>
-        <span class="role">{{experience.role}}</span>
-    </div>
+    <h2 class="role">{{experience.role}}</h2>
+    <h3>{{experience.period}}, {{experience.company}}</h3>
 
     <ul>
         <li *ngFor="let resposibility of experience.responsibilities">{{resposibility}}</li>

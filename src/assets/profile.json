@@ -1,7 +1,12 @@
 {
     "profile": {
         "overview": {
-            "name": "Mateusz Majchrzak"
+            "name": "Mateusz Majchrzak",
+            "mail": "majchrzak@outlook.com",
+            "phone": "(+48) 508 387 828",
+            "location": "Warsaw, Poland",
+            "github": "github.com/majchrzak",
+            "linkedin": "linkedin.com/in/m-majchrzak"
         },
 
         "experience": [
@@ -10,16 +15,19 @@
                 "company": "ITMAGINATION  sp. z o.o.",
                 "location": "(remote)",
                 "summary": "",
+                "period": "2018 - present",
                 "responsibilities": [
                     "Developed, designed and advised trading platform with aggregates exchanges located around the world to generate passive income; designed several trading strategies i.a. arbitrage, market making, hedge, relative value; working with data teammates to optimize, backest and improve algorithms; managing fund portfolio;",
-                    "Developed Know Your Customer web application which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship for BNP Paribas;"
+                    "Developed Know Your Customer web application for BNP Paribas which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship;",
+                    "Took a part in development of JustDrive app for business to client model; developed user interface of car lease module;"
                 ]
             },
             {
                 "role": ".NET/C++ Senior Developer",
-                "company": "Order Group  sp. z o.o.",
+                "company": "Order Group sp. z o.o.",
                 "location": "Warsaw",
                 "summary": "",
+                "period": "2016 - 2018",
                 "responsibilities": [
                     "Developed mobile navigation used by Polish Medical Air Rescue and Polish Air Force University pilots for iOS and UWP; this product competes with Jeppesen Aviator owned by Boeing; designed application architecture; adopted and extended Tangram-ES map rendering library; build product backlog items;"
                 ]
@@ -29,38 +37,44 @@
                 "company": "Freelance",
                 "location": "Warsaw",
                 "summary": "",
+                "period": "2015 - 2016",
                 "responsibilities": [
                     "Developed secure decentralized messaging application for Android; designed end-to-end communication protocol based on Bitcoin network; developed another one Bitcoin wallet;",
                     "Developed e-commerce platform clients for iOS and Android; designed user interface based on website;"
                 ]
             },
             {
-                "role": "Unity 3D Developer ",
-                "company": "Fuero Games",
+                "role": ".NET Regular Developer",
+                "company": "Fuero Games sp. z o.o.",
                 "location": "Warsaw",
                 "summary": "",
+                "period": "2014 - 2015",
                 "responsibilities": [
-                    "Deﬁning and creating a communication protocol built on top of blockchain technology.",
-                    "Designing and developing secure token authentication client.",
-                    "Implementing end-to-end data encryption based on Elliptic Curves.",
-                    "Developing hierarchical deterministic Bitcoin wallet.",
-                    "Designing and developing user interface (AXML).",
-                    "Participating in testing and bug ﬁxing processes."
+                    "Participating in every aspect of development massive multiplayer strategy game for mobile;",
+                    "Took a part in POC development of third person multiplayer shooter for Wargaming;"
+                ]
+            },
+            {
+                "role": ".NET/C++ Developer",
+                "company": "Nitreal",
+                "location": "Warsaw",
+                "summary": "",
+                "period": "2013 - 2014",
+                "responsibilities": [
+                    "Ported serie of time management strategy games from PC to mobile; developed tools to migrate scenes from Torque 2D to Unity 3D; participating in testing and bug fixing;",
+                    "Took a part in development of VR application for large area stores; developing client shelf heatmaps;",
+                    "Developed web framework for over a dozen educational games;"
                 ]
             }
         ],
 
         "contribution": [
-            {
-                "role": "Software Developer",
-                "company": "ITMAGINATION  sp. z o.o.",
-                "location": "(remote)",
-                "summary": "",
-                "responsibilities": [
-                    "Developing processes which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship.",
-                    "Developed automotive application for iOS and Android"
-                ]
-            }
+            "Developed and mantained Flurry plugon for Unity 3D witch is featured by official Yahoo documentation;",
+            "Developed mobile navigation used by Polish Medical Air Rescue and Polish Air Force University pilots for iOS and UWP; this product competes with Jeppesen Aviator owned by Boeing; designed application architecture; adopted and extended Tangram-ES map rendering library; build product backlog items;",
+            "Took a part in development of JustDrive app for business to client model; developed user interface of car lease module;"
+        ],
+
+        "certification": [
         ],
 
         "skills": [

@@ -8,8 +8,10 @@ import { ProfileService } from './service/profile.service';
 })
 export class AppComponent {
 
+  overview$ = this.profileService.overview$;
   experience$ = this.profileService.experience$;
   contribution$ = this.profileService.contribution$;
+  certification$ = this.profileService.certification$;
 
   constructor(
     private readonly profileService: ProfileService

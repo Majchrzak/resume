@@ -23,6 +23,11 @@ export class ProfileService {
         distinctUntilChanged()
     );
 
+    certification$ = this.state.pipe(
+        map(it => it.certification),
+        distinctUntilChanged()
+    );
+
     skills$ = this.state.pipe(
         map(it => it.skills),
         distinctUntilChanged()

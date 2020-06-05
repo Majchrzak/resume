@@ -1,0 +1,20 @@
+<h1>Language</h1>
+
+<div class="row">
+    <div class="col-6 col-sm-6">
+        <ul>
+            <li *ngFor="let language of language | evenodd:'odd'">
+                <span>{{language.name}}</span>
+                <div>{{language.summary}}</div>
+            </li>
+        </ul>
+    </div>
+    <div class="col-6 col-sm-6">
+        <ul>
+            <li *ngFor="let language of language | evenodd:'even'">
+                <span>{{language.name}}</span>
+                <div>{{language.summary}}</div>
+            </li>
+        </ul>
+    </div>
+</div>

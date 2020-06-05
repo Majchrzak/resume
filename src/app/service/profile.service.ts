@@ -8,6 +8,11 @@ import { profile } from '../../assets/profile.json';
 export class ProfileService {
     private readonly state = new BehaviorSubject<ProfileModel>(profile);
 
+    about$ = this.state.pipe(
+        map(it => it.about),
+        distinctUntilChanged()
+    );
+
     overview$ = this.state.pipe(
         map(it => it.overview),
         distinctUntilChanged()
@@ -30,6 +35,16 @@ export class ProfileService {
 
     skills$ = this.state.pipe(
         map(it => it.skills),
+        distinctUntilChanged()
+    );
+
+    language$ = this.state.pipe(
+        map(it => it.language),
+        distinctUntilChanged()
+    );
+
+    clause$ = this.state.pipe(
+        map(it => it.clause),
         distinctUntilChanged()
     );
 

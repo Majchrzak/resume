@@ -11,9 +11,12 @@ import { SkillsComponent } from './component/skills/skills.component';
 import { AboutComponent } from './component/about/about.component';
 import { ContributionComponent } from './component/contribution/contribution.component';
 import { CertificationComponent } from './component/certification/certification.component';
+import { LanguageComponent } from './component/language/language.component';
+import { EvenOddPipe } from './pipe/even-odd.pipe';
 
 @NgModule({
   declarations: [
+    EvenOddPipe,
     AppComponent,
     HeadlineComponent,
     ExperienceComponent,
@@ -22,7 +25,8 @@ import { CertificationComponent } from './component/certification/certification.
     SkillsComponent,
     AboutComponent,
     ContributionComponent,
-    CertificationComponent
+    CertificationComponent,
+    LanguageComponent
   ],
   imports: [
     BrowserModule

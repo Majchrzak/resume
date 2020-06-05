@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { ProfileService } from 'src/app/service/profile.service';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-skills',
@@ -8,10 +7,7 @@ import { ProfileService } from 'src/app/service/profile.service';
 })
 export class SkillsComponent {
 
-  skills$ = this.profileService.skills$;
-
-  constructor(
-    private readonly profileService: ProfileService
-  ) { }
+  @Input()
+  skills: string[];
 
 }

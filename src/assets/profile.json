@@ -9,6 +9,8 @@
             "linkedin": "linkedin.com/in/m-majchrzak"
         },
 
+        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+
         "experience": [
             {
                 "role": ".NET Senior Developer",
@@ -29,7 +31,9 @@
                 "summary": "",
                 "period": "2016 - 2018",
                 "responsibilities": [
-                    "Developed mobile navigation used by Polish Medical Air Rescue and Polish Air Force University pilots for iOS and UWP; this product competes with Jeppesen Aviator owned by Boeing; designed application architecture; adopted and extended Tangram-ES map rendering library; build product backlog items;"
+                    "Developed mobile navigation used by Polish Medical Air Rescue and Polish Air Force University pilots for iOS and UWP; this product competes with Jeppesen Aviator owned by Boeing; designed application architecture; adopted and extended Tangram-ES map rendering library; build product backlog items;",
+                    "Developed secure decentralized messaging application for Android; designed end-to-end communication protocol based on Bitcoin network; developed another one Bitcoin wallet;",
+                    "Took a part in development of JustDrive app for business to client model; developed user interface of car lease module;"
                 ]
             },
             {
@@ -40,7 +44,8 @@
                 "period": "2015 - 2016",
                 "responsibilities": [
                     "Developed secure decentralized messaging application for Android; designed end-to-end communication protocol based on Bitcoin network; developed another one Bitcoin wallet;",
-                    "Developed e-commerce platform clients for iOS and Android; designed user interface based on website;"
+                    "Developed e-commerce platform clients for iOS and Android; designed user interface based on website;",
+                    "Took a part in development of JustDrive app for business to client model; developed user interface of car lease module;"
                 ]
             },
             {
@@ -50,8 +55,10 @@
                 "summary": "",
                 "period": "2014 - 2015",
                 "responsibilities": [
+                    "Developed mobile navigation used by Polish Medical Air Rescue and Polish Air Force University pilots for iOS and UWP; this product competes with Jeppesen Aviator owned by Boeing; designed application architecture; adopted and extended Tangram-ES map rendering library; build product backlog items;",
                     "Participating in every aspect of development massive multiplayer strategy game for mobile;",
-                    "Took a part in POC development of third person multiplayer shooter for Wargaming;"
+                    "Took a part in POC development of third person multiplayer shooter for Wargaming;",
+                    "Developed secure decentralized messaging application for Android; designed end-to-end communication protocol based on Bitcoin network; developed another one Bitcoin wallet;"
                 ]
             },
             {
@@ -69,6 +76,7 @@
         ],
 
         "contribution": [
+            "Developed mobile navigation used by Polish Medical Air Rescue and Polish Air Force University pilots for iOS and UWP; this product competes with Jeppesen Aviator owned by Boeing; designed application architecture; adopted and extended",
             "Developed and mantained Flurry plugon for Unity 3D witch is featured by official Yahoo documentation;",
             "Developed mobile navigation used by Polish Medical Air Rescue and Polish Air Force University pilots for iOS and UWP; this product competes with Jeppesen Aviator owned by Boeing; designed application architecture; adopted and extended Tangram-ES map rendering library; build product backlog items;",
             "Took a part in development of JustDrive app for business to client model; developed user interface of car lease module;"
@@ -83,6 +91,7 @@
             "C#",
             ".NET Core",
             ".NET Framework",
+            "ASP.NET Core",
             "Xamarin",
             "Unity 3D",
             "Angular 2",
@@ -91,8 +100,6 @@
             "SCSS",
             "HTML",
             "RxJS",
-            "Dart",
-            "Flutter",
             "SQL Server",
             "PostgreSQL",
             "MongoDb",
@@ -105,6 +112,19 @@
             "Visual Studio",
             "VSCode",
             "Rider"
-        ]
+        ],
+
+        "language": [
+            {
+                "name": "Polish",
+                "summary": "Native proficiency"
+            },
+            {
+                "name": "English",
+                "summary": "Professional proficiency"
+            }
+        ],
+
+        "clause": "I agree to the processing of personal data provided in this document for realising the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)"
     }
 }

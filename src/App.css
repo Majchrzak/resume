@@ -1,0 +1,57 @@
+body {
+  font-size: 14px;
+  text-align: justify;
+}
+
+h1 {
+  color: #666;
+  font-size: 1rem;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  padding-left: 1.3rem;
+  margin-top: 0rem;
+}
+
+li {
+  list-style-type: square;
+  margin: 0.3rem 0 0.3rem 0;
+}
+
+.tech {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 400;
+  background-color: #0001;
+  padding: 0.15rem 0.2rem;
+  margin: 0 0.4rem 0.4rem 0;
+}
+
+.muted {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 920px;
+  }
+}
+
+@media print {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 920px;
+  }
+}

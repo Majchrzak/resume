@@ -51,7 +51,35 @@ function App() {
               ))}
             </ul>
           </Section>
-          <div>
+          <Section title="Languages">
+            <Row>
+              <Col xs="6">
+                <ul>
+                  {profile.language
+                    .filter((_, idx) => idx % 2 === 1)
+                    .map(it => (
+                      <li>
+                        <p>{it.name}</p>
+                        <p className="muted">{it.summary}</p>
+                      </li>
+                    ))}
+                </ul>
+              </Col>
+              <Col xs="6">
+                <ul>
+                  {profile.language
+                    .filter((_, idx) => idx % 2 === 0)
+                    .map(it => (
+                      <li>
+                        <p>{it.name}</p>
+                        <p className="muted">{it.summary}</p>
+                      </li>
+                    ))}
+                </ul>
+              </Col>
+            </Row>
+          </Section>
+          <div className="muted">
             I agree to the processing of personal data provided in this document for
             realising the recruitment process pursuant to the Personal Data Protection Act
             of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with

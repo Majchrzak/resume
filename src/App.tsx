@@ -5,6 +5,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { profile } from './assets/profile.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPaperPlane, faCompass } from '@fortawesome/free-regular-svg-icons';
 
 function Section(props: { title: string; children: ReactElement }) {
   return (
@@ -23,10 +25,12 @@ function App() {
   return (
     <Container>
       <Row>
-        <Col>{profile.overview.name}</Col>
+        <Col>
+          <p className="headline">{profile.overview.name}</p>
+        </Col>
       </Row>
       <Row>
-        <Col md="12" lg="6">
+        <Col md="6" lg="6">
           <Section title="About me">
             <p className="py-1">{profile.about}</p>
           </Section>
@@ -40,14 +44,14 @@ function App() {
           <Section title="Non-commercial contribution">
             <ul>
               {profile.contribution.map(it => (
-                <li>{it}</li>
+                <li key={it}>{it}</li>
               ))}
             </ul>
           </Section>
           <Section title="Certification">
             <ul>
               {profile.certification.map(it => (
-                <li>{it}</li>
+                <li key={it}>{it}</li>
               ))}
             </ul>
           </Section>
@@ -58,7 +62,7 @@ function App() {
                   {profile.language
                     .filter((_, idx) => idx % 2 === 1)
                     .map(it => (
-                      <li>
+                      <li key={it.name}>
                         <p>{it.name}</p>
                         <p className="muted">{it.summary}</p>
                       </li>
@@ -70,7 +74,7 @@ function App() {
                   {profile.language
                     .filter((_, idx) => idx % 2 === 0)
                     .map(it => (
-                      <li>
+                      <li key={it.name}>
                         <p>{it.name}</p>
                         <p className="muted">{it.summary}</p>
                       </li>
@@ -79,7 +83,35 @@ function App() {
               </Col>
             </Row>
           </Section>
-          <div className="muted">
+          <Section title="Contact">
+            <Row>
+              <Col lg="6">
+                <ul className="list-unstyled">
+                  <li key="mail">
+                    <FontAwesomeIcon icon={faPaperPlane} className="dimmed" />
+                    {profile.overview.mail}
+                  </li>
+                  <li key="location">
+                    <FontAwesomeIcon icon={faCompass} className="dimmed" />
+                    {profile.overview.location}
+                  </li>
+                </ul>
+              </Col>
+              <Col lg="6">
+                <ul className="list-unstyled">
+                  <li key="github">
+                    <FontAwesomeIcon icon={faPaperPlane} className="dimmed" />
+                    <a href={profile.overview.github}>{profile.overview.github}</a>
+                  </li>
+                  <li key="linkedin">
+                    <FontAwesomeIcon icon={faCompass} className="dimmed" />
+                    <a href={profile.overview.linkedin}>{profile.overview.linkedin}</a>
+                  </li>
+                </ul>
+              </Col>
+            </Row>
+          </Section>
+          <div className="muted dimmed">
             I agree to the processing of personal data provided in this document for
             realising the recruitment process pursuant to the Personal Data Protection Act
             of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with
@@ -102,7 +134,7 @@ function App() {
                   </p>
                   <ul>
                     {it.responsibilities.map(it => (
-                      <li>{it}</li>
+                      <li key={it}>{it}</li>
                     ))}
                   </ul>
                 </div>

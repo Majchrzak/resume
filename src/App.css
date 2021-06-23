@@ -1,10 +1,10 @@
 body {
   font-size: 14px;
   text-align: justify;
+  font-family: 'Cairo', sans-serif;
 }
 
 h1 {
-  color: #666;
   font-size: 0.9rem;
   margin: 0;
 }
@@ -23,6 +23,20 @@ li {
   margin: 0.3rem 0 0.3rem 0;
 }
 
+.headline {
+  font-size: 1.6rem;
+  border-left: 1rem solid #555;
+  margin: 1.5rem 0;
+  padding: 0.4rem 0.4rem 0.4rem 1rem;
+  color: #555;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.list-unstyled li {
+  list-style-type: none;
+}
+
 .tech {
   display: inline-block;
   font-size: 0.8rem;
@@ -34,6 +48,10 @@ li {
 
 .muted {
   font-size: 0.8rem;
+}
+
+.dimmed {
+  color: #666;
 }
 
 @media (min-width: 1200px) {

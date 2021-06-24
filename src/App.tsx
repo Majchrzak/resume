@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import { profile } from './assets/profile.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane, faCompass } from '@fortawesome/free-regular-svg-icons';
+import { faGithubAlt, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 function Section(props: { title: string; children: ReactElement }) {
   return (
@@ -70,7 +71,7 @@ function App() {
                 </ul>
               </Col>
               <Col xs="6">
-                <ul>
+                <ul className="list-unstyled">
                   {profile.language
                     .filter((_, idx) => idx % 2 === 0)
                     .map(it => (
@@ -89,7 +90,9 @@ function App() {
                 <ul className="list-unstyled">
                   <li key="mail">
                     <FontAwesomeIcon icon={faPaperPlane} className="dimmed" />
-                    {profile.overview.mail}
+                    <a href={'mailto:' + profile.overview.mail}>
+                      {profile.overview.mail}
+                    </a>
                   </li>
                   <li key="location">
                     <FontAwesomeIcon icon={faCompass} className="dimmed" />
@@ -100,11 +103,11 @@ function App() {
               <Col lg="6">
                 <ul className="list-unstyled">
                   <li key="github">
-                    <FontAwesomeIcon icon={faPaperPlane} className="dimmed" />
+                    <FontAwesomeIcon icon={faGithubAlt} className="dimmed" />
                     <a href={profile.overview.github}>{profile.overview.github}</a>
                   </li>
                   <li key="linkedin">
-                    <FontAwesomeIcon icon={faCompass} className="dimmed" />
+                    <FontAwesomeIcon icon={faLinkedinIn} className="dimmed" />
                     <a href={profile.overview.linkedin}>{profile.overview.linkedin}</a>
                   </li>
                 </ul>

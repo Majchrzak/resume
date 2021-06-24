@@ -93,6 +93,7 @@
       "ASP.NET Core",
       "Xamarin",
       "Unity 3D",
+      "Node.js",
       "Angular 2",
       "React",
       "TypeScript",
@@ -103,16 +104,18 @@
       "RxJS",
       "SQL Server",
       "PostgreSQL",
-      "MongoDb",
       "Docker",
+      "Terraform",
       "AWS",
       "Azure DevOps",
       "RabbitMQ",
-      "Git",
-      "SCRUM",
       "Visual Studio",
       "VSCode",
-      "Rider"
+      "Rider",
+      "Windows",
+      "macOS",
+      "Git",
+      "SCRUM"
     ],
 
     "language": [

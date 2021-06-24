@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin: 0;
 }
 
@@ -14,13 +14,24 @@ p {
 }
 
 ul {
-  padding-left: 1.3rem;
+  padding-left: 0rem;
   margin-top: 0rem;
 }
 
 li {
-  list-style-type: square;
+  list-style-type: none;
   margin: 0.3rem 0 0.3rem 0;
+}
+
+li:before {
+  text-indent: 1em;
+
+  content: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+PHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjQiIGhlaWdodD0iNCIvPjwvc3ZnPg==');
+}
+
+a {
+  color: #000;
+  text-decoration: none;
 }
 
 .headline {

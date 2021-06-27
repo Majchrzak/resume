@@ -42,7 +42,7 @@ function App() {
               ))}
             </p>
           </Section>
-          <Section title="Non-commercial contribution">
+          <Section title="self-driven experience">
             <ul>
               {profile.contribution.map(it => (
                 <li key={it}>{it}</li>
@@ -86,7 +86,7 @@ function App() {
           </Section>
           <Section title="Contact">
             <Row>
-              <Col lg="6">
+              <Col lg="6" className="list-style-none">
                 <ul className="list-unstyled">
                   <li key="mail">
                     <FontAwesomeIcon icon={faPaperPlane} className="dimmed" />
@@ -100,7 +100,7 @@ function App() {
                   </li>
                 </ul>
               </Col>
-              <Col lg="6">
+              <Col lg="6" className="list-style-none">
                 <ul className="list-unstyled">
                   <li key="github">
                     <FontAwesomeIcon icon={faGithubAlt} className="dimmed" />

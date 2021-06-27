@@ -14,19 +14,21 @@ p {
 }
 
 ul {
-  padding-left: 0rem;
+  padding-left: 1rem;
   margin-top: 0rem;
 }
 
 li {
   list-style-type: none;
   margin: 0.3rem 0 0.3rem 0;
+  list-style-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+PHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjQiIGhlaWdodD0iNCIvPjwvc3ZnPg==');
 }
 
-li:before {
-  text-indent: 1em;
+.list-style-none ul {
+}
 
-  content: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+PHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjQiIGhlaWdodD0iNCIvPjwvc3ZnPg==');
+.list-style-none li {
+  list-style-image: none;
 }
 
 a {

@@ -5,9 +5,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { profile } from './assets/profile.json';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperPlane, faCompass } from '@fortawesome/free-regular-svg-icons';
-import { faGithubAlt, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 function Section(props: { title: string; children: ReactElement }) {
   return (
@@ -52,7 +49,9 @@ function App() {
           <Section title="Certification">
             <ul>
               {profile.certification.map(it => (
-                <li key={it}>{it}</li>
+                <li key={it}>
+                  <p>{it}</p>
+                </li>
               ))}
             </ul>
           </Section>
@@ -71,7 +70,7 @@ function App() {
                 </ul>
               </Col>
               <Col xs="6">
-                <ul className="list-unstyled">
+                <ul>
                   {profile.language
                     .filter((_, idx) => idx % 2 === 0)
                     .map(it => (
@@ -86,29 +85,32 @@ function App() {
           </Section>
           <Section title="Contact">
             <Row>
-              <Col lg="6" className="list-style-none">
-                <ul className="list-unstyled">
-                  <li key="mail">
-                    <FontAwesomeIcon icon={faPaperPlane} className="dimmed" />
+              <Col sm="6">
+                <ul className="mb-0">
+                  <li key="mail" className="mail">
                     <a href={'mailto:' + profile.overview.mail}>
                       {profile.overview.mail}
                     </a>
                   </li>
-                  <li key="location">
-                    <FontAwesomeIcon icon={faCompass} className="dimmed" />
+                  <li key="phone" className="location">
+                    {profile.overview.phone}
+                  </li>
+                  <li key="location" className="location">
                     {profile.overview.location}
                   </li>
                 </ul>
               </Col>
-              <Col lg="6" className="list-style-none">
-                <ul className="list-unstyled">
-                  <li key="github">
-                    <FontAwesomeIcon icon={faGithubAlt} className="dimmed" />
-                    <a href={profile.overview.github}>{profile.overview.github}</a>
+              <Col sm="6">
+                <ul className="mb-0">
+                  <li key="github" className="github">
+                    <a href={`https://${profile.overview.github}`} target="_balnk">
+                      {profile.overview.github}
+                    </a>
                   </li>
-                  <li key="linkedin">
-                    <FontAwesomeIcon icon={faLinkedinIn} className="dimmed" />
-                    <a href={profile.overview.linkedin}>{profile.overview.linkedin}</a>
+                  <li key="linkedin" className="linkedin">
+                    <a href={`https://${profile.overview.linkedin}`} target="_balnk">
+                      {profile.overview.linkedin}
+                    </a>
                   </li>
                 </ul>
               </Col>

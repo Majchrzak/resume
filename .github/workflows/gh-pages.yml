@@ -1,0 +1,25 @@
+name: Resume CI
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build Angular App
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - run: npm install
+      - run: npm run build
+
+      - name: deploy to github pages
+        uses: crazy-max/ghaction-github-pages@v2.0.1
+        with:
+          build_dir: './build/'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

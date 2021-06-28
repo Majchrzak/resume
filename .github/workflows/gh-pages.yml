@@ -15,11 +15,11 @@ jobs:
         with:
           node-version: '12.x'
       - run: npm install
-      - run: npm run build
+      - run: ng build --prod --base-href "/resume/"
 
       - name: deploy to github pages
         uses: crazy-max/ghaction-github-pages@v2.0.1
         with:
-          build_dir: './build/'
+          build_dir: './dist/Resume/'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

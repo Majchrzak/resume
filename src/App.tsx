@@ -92,7 +92,7 @@ function App() {
                       {profile.overview.mail}
                     </a>
                   </li>
-                  <li key="phone" className="location">
+                  <li key="phone" className="phone">
                     {profile.overview.phone}
                   </li>
                   <li key="location" className="location">

@@ -68,9 +68,9 @@
         "summary": "",
         "period": "2013 - 2014",
         "responsibilities": [
-          "Ported serie of time management strategy games from PC to mobile; developed tools to migrate scenes from Torque 2D to Unity 3D; participating in testing and bug fixing;",
-          "Took a part in development of VR application for large area stores; developing client shelf heatmaps;",
-          "Developed web framework for over a dozen educational games;"
+          "Written a software to convert games from Torque Engine into Unity 3D scenes in C#; ported serie of time management strategy games from PC to mobile;",
+          "Took a part in development of VR application for large area stores; developed a heatmap system to track client eyes in C++;",
+          "Created game framework in JavaScript and HTML5 (Canvas); developed over 20 simple educational games based on this framework;"
         ]
       }
     ],

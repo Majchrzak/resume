@@ -76,10 +76,24 @@
     ],
 
     "contribution": [
-      "Developed mobile navigation used by Polish Medical Air Rescue and Polish Air Force University pilots for iOS and UWP; this product competes with Jeppesen Aviator owned by Boeing; designed application architecture; adopted and extended",
-      "Developed and mantained Flurry plugon for Unity 3D witch is featured by official Yahoo documentation;",
-      "Developed mobile navigation used by Polish Medical Air Rescue and Polish Air Force University pilots for iOS and UWP; this product competes with Jeppesen Aviator owned by Boeing; designed application architecture; adopted and extended Tangram-ES map rendering library; build product backlog items;",
-      "Took a part in development of JustDrive app for business to client model; developed user interface of car lease module;"
+      {
+        "period": "2018 - present",
+        "responsibilities": [
+          "Developed and mantained Flurry plugon for Unity 3D witch is featured by official Yahoo documentation;"
+        ]
+      },
+      {
+        "period": "2016 - 2017",
+        "responsibilities": [
+          "Developed mobile navigation used by Polish Medical Air Rescue and Polish Air Force University pilots for iOS and UWP; this product competes with Jeppesen Aviator owned by Boeing; designed application architecture; adopted and extended Tangram-ES map rendering library; build product backlog items;"
+        ]
+      },
+      {
+        "period": "2015 - 2016",
+        "responsibilities": [
+          "Took a part in development of JustDrive app for business to client model; developed user interface of car lease module;"
+        ]
+      }
     ],
 
     "certification": ["Terraform Associate", "Proffesional Scrum Master"],

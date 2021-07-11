@@ -9,7 +9,7 @@ import { profile } from './assets/profile.json';
 function Section(props: { title: string; children: ReactElement }) {
   return (
     <Fragment>
-      <Row className="my-3">
+      <Row className="my-2 my-md-3">
         <h1 className="text-uppercase">
           <strong>{props.title}</strong>
         </h1>
@@ -19,133 +19,193 @@ function Section(props: { title: string; children: ReactElement }) {
   );
 }
 
+function Overview() {
+  return <p className="headline">{profile.overview.name}</p>;
+}
+
+function About() {
+  return (
+    <Section title="About me">
+      <p className="py-1">{profile.about}</p>
+    </Section>
+  );
+}
+
+function TechStack() {
+  return (
+    <Section title="Technical stack">
+      <p className="pt-2">
+        {profile.skills.map(it => (
+          <span className="tech">{it}</span>
+        ))}
+      </p>
+    </Section>
+  );
+}
+
+function SelfExperience() {
+  return (
+    <Section title="self-driven experience">
+      <Fragment>
+        {profile.contribution.map(it => (
+          <div>
+            <p className="muted">{it.period}</p>
+            <ul className="mb-0">
+              {it.responsibilities.map(it => (
+                <li key={it}>{it}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </Fragment>
+    </Section>
+  );
+}
+
+function CommercialExperience() {
+  return (
+    <Section title="Commercial experience">
+      <Fragment>
+        {profile.experience.map(it => (
+          <div>
+            <p className="text-uppercase">
+              <strong>{it.role}</strong>
+            </p>
+            <p className="muted">
+              {it.period}, {it.company}, {it.location}
+            </p>
+            <ul>
+              {it.responsibilities.map(it => (
+                <li key={it}>{it}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </Fragment>
+    </Section>
+  );
+}
+
+function Certification() {
+  return (
+    <Section title="Certification">
+      <ul>
+        {profile.certification.map(it => (
+          <li key={it}>
+            <p>{it}</p>
+          </li>
+        ))}
+      </ul>
+    </Section>
+  );
+}
+
+function Languages() {
+  return (
+    <Section title="Languages">
+      <Row>
+        <Col xs="6">
+          <ul>
+            {profile.language
+              .filter((_, idx) => idx % 2 === 1)
+              .map(it => (
+                <li key={it.name}>
+                  <p>{it.name}</p>
+                  <p className="muted">{it.summary}</p>
+                </li>
+              ))}
+          </ul>
+        </Col>
+        <Col xs="6">
+          <ul>
+            {profile.language
+              .filter((_, idx) => idx % 2 === 0)
+              .map(it => (
+                <li key={it.name}>
+                  <p>{it.name}</p>
+                  <p className="muted">{it.summary}</p>
+                </li>
+              ))}
+          </ul>
+        </Col>
+      </Row>
+    </Section>
+  );
+}
+
+function Contact() {
+  return (
+    <Section title="Contact">
+      <Row>
+        <Col sm="6">
+          <ul className="mb-0">
+            <li key="mail" className="mail">
+              <a href={'mailto:' + profile.overview.mail}>{profile.overview.mail}</a>
+            </li>
+            <li key="phone" className="phone">
+              {profile.overview.phone}
+            </li>
+            <li key="location" className="location">
+              {profile.overview.location}
+            </li>
+          </ul>
+        </Col>
+        <Col sm="6">
+          <ul className="mb-0">
+            <li key="github" className="github">
+              <a href={`https://${profile.overview.github}`} target="_balnk">
+                {profile.overview.github}
+              </a>
+            </li>
+            <li key="linkedin" className="linkedin">
+              <a href={`https://${profile.overview.linkedin}`} target="_balnk">
+                {profile.overview.linkedin}
+              </a>
+            </li>
+          </ul>
+        </Col>
+      </Row>
+    </Section>
+  );
+}
+
+function Footer() {
+  return (
+    <div className="muted dimmed">
+      I agree to the processing of personal data provided in this document for realising
+      the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018
+      (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of
+      the European Parliament and of the Council of 27 April 2016 on the protection of
+      natural persons with regard to the processing of personal data and on the free
+      movement of such data, and repealing Directive 95/46/EC (General Data Protection
+      Regulation)
+    </div>
+  );
+}
+
 function App() {
   return (
     <Container>
       <Row>
         <Col>
-          <p className="headline">{profile.overview.name}</p>
+          <Overview />
         </Col>
       </Row>
       <Row>
-        <Col md="6" lg="6">
-          <Section title="About me">
-            <p className="py-1">{profile.about}</p>
-          </Section>
-          <Section title="Technical stack">
-            <p className="pt-2">
-              {profile.skills.map(it => (
-                <span className="tech">{it}</span>
-              ))}
-            </p>
-          </Section>
-          <Section title="self-driven experience">
-            <ul>
-              {profile.contribution.map(it => (
-                <li key={it}>{it}</li>
-              ))}
-            </ul>
-          </Section>
-          <Section title="Certification">
-            <ul>
-              {profile.certification.map(it => (
-                <li key={it}>
-                  <p>{it}</p>
-                </li>
-              ))}
-            </ul>
-          </Section>
-          <Section title="Languages">
-            <Row>
-              <Col xs="6">
-                <ul>
-                  {profile.language
-                    .filter((_, idx) => idx % 2 === 1)
-                    .map(it => (
-                      <li key={it.name}>
-                        <p>{it.name}</p>
-                        <p className="muted">{it.summary}</p>
-                      </li>
-                    ))}
-                </ul>
-              </Col>
-              <Col xs="6">
-                <ul>
-                  {profile.language
-                    .filter((_, idx) => idx % 2 === 0)
-                    .map(it => (
-                      <li key={it.name}>
-                        <p>{it.name}</p>
-                        <p className="muted">{it.summary}</p>
-                      </li>
-                    ))}
-                </ul>
-              </Col>
-            </Row>
-          </Section>
-          <Section title="Contact">
-            <Row>
-              <Col sm="6">
-                <ul className="mb-0">
-                  <li key="mail" className="mail">
-                    <a href={'mailto:' + profile.overview.mail}>
-                      {profile.overview.mail}
-                    </a>
-                  </li>
-                  <li key="phone" className="phone">
-                    {profile.overview.phone}
-                  </li>
-                  <li key="location" className="location">
-                    {profile.overview.location}
-                  </li>
-                </ul>
-              </Col>
-              <Col sm="6">
-                <ul className="mb-0">
-                  <li key="github" className="github">
-                    <a href={`https://${profile.overview.github}`} target="_balnk">
-                      {profile.overview.github}
-                    </a>
-                  </li>
-                  <li key="linkedin" className="linkedin">
-                    <a href={`https://${profile.overview.linkedin}`} target="_balnk">
-                      {profile.overview.linkedin}
-                    </a>
-                  </li>
-                </ul>
-              </Col>
-            </Row>
-          </Section>
-          <div className="muted dimmed">
-            I agree to the processing of personal data provided in this document for
-            realising the recruitment process pursuant to the Personal Data Protection Act
-            of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with
-            Regulation (EU) 2016/679 of the European Parliament and of the Council of 27
-            April 2016 on the protection of natural persons with regard to the processing
-            of personal data and on the free movement of such data, and repealing
-            Directive 95/46/EC (General Data Protection Regulation)
+        <Col md="6">
+          <About />
+          <TechStack />
+          <div className="d-flex d-md-none">
+            <CommercialExperience />
           </div>
+          <SelfExperience />
+          <Certification />
+          <Languages />
+          <Contact />
+          <Footer />
         </Col>
-        <Col>
-          <Section title="Commercial experience">
-            <Fragment>
-              {profile.experience.map(it => (
-                <div>
-                  <p className="text-uppercase">
-                    <strong>{it.role}</strong>
-                  </p>
-                  <p className="muted">
-                    {it.period}, {it.company}, {it.location}
-                  </p>
-                  <ul>
-                    {it.responsibilities.map(it => (
-                      <li key={it}>{it}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </Fragment>
-          </Section>
+        <Col className="d-none d-md-flex">
+          <CommercialExperience />
         </Col>
       </Row>
     </Container>

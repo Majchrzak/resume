@@ -188,12 +188,12 @@ function Footer() {
 function App() {
   return (
     <Container>
-      <Row className="mx-2 mx-md-0">
+      <Row>
         <Col>
           <Overview />
         </Col>
       </Row>
-      <Row className="mx-2 mx-md-0">
+      <Row>
         <Col md="6">
           <About />
           <TechStack />

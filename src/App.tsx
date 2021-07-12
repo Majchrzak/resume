@@ -6,10 +6,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { profile } from './assets/profile.json';
 
-function Section(props: { title: string; children: ReactElement }) {
+function Section(props: { title: string; children: ReactElement; className?: string }) {
   return (
     <Fragment>
-      <Row className="my-2 my-md-3">
+      <Row className={`${props.className} my-3`}>
         <h1 className="text-uppercase">
           <strong>{props.title}</strong>
         </h1>
@@ -47,27 +47,29 @@ function SelfExperience() {
   return (
     <Section title="self-driven experience">
       <Fragment>
-        {profile.contribution.map(it => (
-          <div>
-            <p className="muted">{it.period}</p>
-            <ul className="mb-0">
-              {it.responsibilities.map(it => (
-                <li key={it}>{it}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
+        <div className="mt-1">
+          {profile.contribution.map(it => (
+            <div>
+              <p className="muted">{it.period}</p>
+              <ul className="mb-0">
+                {it.responsibilities.map(it => (
+                  <li key={it}>{it}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </Fragment>
     </Section>
   );
 }
 
-function CommercialExperience() {
+function CommercialExperience(props: { className?: string }) {
   return (
-    <Section title="Commercial experience">
+    <Section title="Commercial experience" className={props.className}>
       <Fragment>
         {profile.experience.map(it => (
-          <div>
+          <div className="my-2">
             <p className="text-uppercase">
               <strong>{it.role}</strong>
             </p>
@@ -171,7 +173,7 @@ function Contact() {
 
 function Footer() {
   return (
-    <div className="muted dimmed">
+    <div className="muted dimmed pb-2">
       I agree to the processing of personal data provided in this document for realising
       the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018
       (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of
@@ -186,20 +188,17 @@ function Footer() {
 function App() {
   return (
     <Container>
-      <Row>
+      <Row className="mx-2 mx-md-0">
         <Col>
           <Overview />
         </Col>
       </Row>
-      <Row>
+      <Row className="mx-2 mx-md-0">
         <Col md="6">
           <About />
           <TechStack />
-          <div className="d-flex d-md-none">
-            <CommercialExperience />
-          </div>
+          <CommercialExperience className="d-flex d-md-none" />
           <SelfExperience />
-          <Certification />
           <Languages />
           <Contact />
           <Footer />

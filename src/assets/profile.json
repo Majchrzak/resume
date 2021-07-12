@@ -19,9 +19,8 @@
         "summary": "",
         "period": "2018 - present",
         "responsibilities": [
-          "Developed, designed and advised trading platform with aggregates exchanges located around the world to generate passive income; designed several trading strategies i.a. arbitrage, market making, hedge, relative value; working with data teammates to optimize, backest and improve algorithms; managing fund portfolio;",
-          "Developed Know Your Customer web application for BNP Paribas which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship;",
-          "Took a part in development of JustDrive app for business to client model; developed user interface of car lease module;"
+          "Developed Know Your Customer (KYC) application which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship; managing application deployment; Designing application architecture;",
+          "Developed automotive application for iOS and Android; Developing B2C features; Creating user interface based on provided mockups (Xamarin.Forms);"
         ]
       },
       {
@@ -31,9 +30,8 @@
         "summary": "",
         "period": "2016 - 2018",
         "responsibilities": [
-          "Developed mobile navigation used by Polish Medical Air Rescue and Polish Air Force University pilots for iOS and UWP; this product competes with Jeppesen Aviator owned by Boeing; designed application architecture; adopted and extended Tangram-ES map rendering library; build product backlog items;",
-          "Developed secure decentralized messaging application for Android; designed end-to-end communication protocol based on Bitcoin network; developed another one Bitcoin wallet;",
-          "Took a part in development of JustDrive app for business to client model; developed user interface of car lease module;"
+          "Developed mobile application for iOS and Windows that serves a navigation aid for both helicopter and aircraft pilots during all kinds of flight operations (C#, C++); Designing application architecture; Optimizing memory and CPU/GPU performance in order to improve device stability and battery life; Adopting and extending Tangram-ES map rendering library (OpenGL ES); Creating native bindings to managed code; Developing user interface based on provided mockups (XIB, XAML); Creating fully automated build processes using CMake and MSBuild; Participating in testing and bug fixing processes; Working closely with backend team, implementing application web interface (REST); Performing code reviews to keep systems up to standards; Working with clients to provide best solutions and validate requirements; Managing App Store and Windows Store deployments and publication processes;",
+          "Developed application for iOS that manages and synchronizes user expenses (C#); Developing REST integration, implementing expense OCR data recognition; Developing user interface based on provided mockups (XIB); Participating in testing and bug fixing processes;"
         ]
       },
       {
@@ -43,9 +41,7 @@
         "summary": "",
         "period": "2015 - 2016",
         "responsibilities": [
-          "Developed secure decentralized messaging application for Android; designed end-to-end communication protocol based on Bitcoin network; developed another one Bitcoin wallet;",
-          "Developed e-commerce platform clients for iOS and Android; designed user interface based on website;",
-          "Took a part in development of JustDrive app for business to client model; developed user interface of car lease module;"
+          "Developed Android client for online distribution marketplace (Kotlin); Providing native application (Android); Developing REST client implementation; Designing and developing user interface based on web page mockups (AXML);"
         ]
       },
       {
@@ -55,10 +51,8 @@
         "summary": "",
         "period": "2014 - 2015",
         "responsibilities": [
-          "Developed mobile navigation used by Polish Medical Air Rescue and Polish Air Force University pilots for iOS and UWP; this product competes with Jeppesen Aviator owned by Boeing; designed application architecture; adopted and extended Tangram-ES map rendering library; build product backlog items;",
-          "Participating in every aspect of development massive multiplayer strategy game for mobile;",
-          "Took a part in POC development of third person multiplayer shooter for Wargaming;",
-          "Developed secure decentralized messaging application for Android; designed end-to-end communication protocol based on Bitcoin network; developed another one Bitcoin wallet;"
+          "Developed cross-platform massive multiplayer online strategy game for iOS, Android and Facebook in C#; Designing and creating user interface; working closely with backend team, designing and implementing web interface (REST); Optimizing network performance based on prediction and request batching; Implementing number of external payment providers (Xsolla, Google Play, App Store);",
+          "Developed prototype of multiplayer third person shooter for PC (C#, Unity 3D); Developing network synchronization and replication;"
         ]
       },
       {
@@ -68,7 +62,7 @@
         "summary": "",
         "period": "2013 - 2014",
         "responsibilities": [
-          "Written a software to convert games from Torque Engine into Unity 3D scenes in C#; ported serie of time management strategy games from PC to mobile;",
+          "Written a software to convert games from Torque Engine into Unity 3D in C#; ported serie of time management strategy games from PC to mobile;",
           "Took a part in development of VR application for large area stores; developed a heatmap system to track client eyes in C++;",
           "Created game framework in JavaScript and HTML5 (Canvas); developed over 20 simple educational games based on this framework;"
         ]
@@ -79,19 +73,19 @@
       {
         "period": "2018 - present",
         "responsibilities": [
-          "Developed and mantained Flurry plugon for Unity 3D witch is featured by official Yahoo documentation;"
+          "Developed automated trading system (C#); Designing and developing distributed services (Akka.NET); Developing application interface (ASP.NET, Entity Framework, MS SQL); Creating trading algorithms; Integrating third-party services (REST, WebSocket);"
         ]
       },
       {
         "period": "2016 - 2017",
         "responsibilities": [
-          "Developed mobile navigation used by Polish Medical Air Rescue and Polish Air Force University pilots for iOS and UWP; this product competes with Jeppesen Aviator owned by Boeing; designed application architecture; adopted and extended Tangram-ES map rendering library; build product backlog items;"
+          "Prototyped and developed first class secure messaging application for Android (Kotlin); Defining and creating a communication protocol built on top of blockchain technology; Designing and developing secure token authentication client; Implementing end-to-end data encryption based on Elliptic Curves; Developing hierarchical deterministic Bitcoin wallet; Designing and developing user interface (AXML); Participating in testing and bug fixing processes;"
         ]
       },
       {
         "period": "2015 - 2016",
         "responsibilities": [
-          "Took a part in development of JustDrive app for business to client model; developed user interface of car lease module;"
+          "Third-party maintainer of Yahoo Flurry Analytics plugin for Unity 3D (C#, Objective-C, Java); Maintaining library with is listed on Yahoo official documentation."
         ]
       }
     ],

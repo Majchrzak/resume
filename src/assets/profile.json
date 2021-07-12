@@ -30,18 +30,19 @@
         "summary": "",
         "period": "2016 - 2018",
         "responsibilities": [
-          "Developed mobile application for iOS and Windows that serves a navigation aid for both helicopter and aircraft pilots during all kinds of flight operations (C#, C++); Designing application architecture; Optimizing memory and CPU/GPU performance in order to improve device stability and battery life; Adopting and extending Tangram-ES map rendering library (OpenGL ES); Creating native bindings to managed code; Developing user interface based on provided mockups (XIB, XAML); Creating fully automated build processes using CMake and MSBuild; Participating in testing and bug fixing processes; Working closely with backend team, implementing application web interface (REST); Performing code reviews to keep systems up to standards; Working with clients to provide best solutions and validate requirements; Managing App Store and Windows Store deployments and publication processes;",
-          "Developed application for iOS that manages and synchronizes user expenses (C#); Developing REST integration, implementing expense OCR data recognition; Developing user interface based on provided mockups (XIB); Participating in testing and bug fixing processes;"
+          "Developed mobile application for iOS and Windows that serves a navigation aid for both helicopter and aircraft pilots during all kinds of flight operations in C#; worked with clients to provide best solutions and validate requirements; designed application architecture; optimized memory and CPU/GPU performance in order to improve device stability and battery life; adopted and extended Tangram-ES map rendering library in C++; created native bindings to managed code; developed user interface based on provided mockups; performed code reviews to keep systems up to standards;",
+          "Developed application in C# that manages and synchronizes user receipts; implemented receipt OCR data recognition; developed user interface based on provided mockups;"
         ]
       },
       {
         "role": ".NET Regular Developer",
-        "company": "Freelance",
+        "company": "8esport",
         "location": "Warsaw",
         "summary": "",
         "period": "2015 - 2016",
         "responsibilities": [
-          "Developed Android client for online distribution marketplace (Kotlin); Providing native application (Android); Developing REST client implementation; Designing and developing user interface based on web page mockups (AXML);"
+          "Developed Android client for online distribution marketplace in Kotlin/Java; designed and developed user interface based on desktop mockups; created REST client library;",
+          "Designed and developed mobile advertise application in Kotlin and Swift to promote another project;"
         ]
       },
       {
@@ -51,8 +52,8 @@
         "summary": "",
         "period": "2014 - 2015",
         "responsibilities": [
-          "Developed cross-platform massive multiplayer online strategy game for iOS, Android and Facebook in C#; Designing and creating user interface; working closely with backend team, designing and implementing web interface (REST); Optimizing network performance based on prediction and request batching; Implementing number of external payment providers (Xsolla, Google Play, App Store);",
-          "Developed prototype of multiplayer third person shooter for PC (C#, Unity 3D); Developing network synchronization and replication;"
+          "Developed cross-platform MMO strategy game for iOS, Android and Facebook in C#; worked closely with backend team to met requiremenets; designed and implemented REST client; optimized network performance based on prediction and request batching; implemented number of external payment providers like Xsolla, Google Play and App Store;",
+          "Developed a PoC of multiplayer third person shooter for PC in C# for a Wargaming; developed network synchronization and replication components;"
         ]
       },
       {
@@ -79,7 +80,7 @@
       {
         "period": "2016 - 2017",
         "responsibilities": [
-          "Prototyped and developed first class secure messaging application for Android (Kotlin); Defining and creating a communication protocol built on top of blockchain technology; Designing and developing secure token authentication client; Implementing end-to-end data encryption based on Elliptic Curves; Developing hierarchical deterministic Bitcoin wallet; Designing and developing user interface (AXML); Participating in testing and bug fixing processes;"
+          "Developed first class secure messaging mobile application in Kotlin; designed and created a communication protocol built on top of blockchain technology; implemented end-to-end data encryption; developed hierarchical deterministic Bitcoin wallet;"
         ]
       },
       {

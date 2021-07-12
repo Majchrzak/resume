@@ -87,7 +87,7 @@ function CommercialExperience(props: { className?: string }) {
     </Section>
   );
 }
-
+/*
 function Certification() {
   return (
     <Section title="Certification">
@@ -101,7 +101,7 @@ function Certification() {
     </Section>
   );
 }
-
+*/
 function Languages() {
   return (
     <Section title="Languages">

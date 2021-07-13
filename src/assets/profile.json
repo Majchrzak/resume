@@ -2,6 +2,7 @@
   "profile": {
     "overview": {
       "name": "Mateusz Majchrzak",
+      "title": "Senior software developer",
       "mail": "majchrzak@outlook.com",
       "phone": "(+48) 508 387 828",
       "location": "Warsaw, Poland",
@@ -9,7 +10,7 @@
       "linkedin": "linkedin.com/in/m-majchrzak"
     },
 
-    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "about": "I'm a software developer with eight years of professional experience. Most recently, I'm focusing on web development especially in finance field. I worked for many diverse software companies from early-stage startups to BNP Paribas S.A.. My leading programming language is C#, but constantly expanding my knowledge to TypeScript. I'm also active open source contributor focused to deliver high quality software to community.",
 
     "experience": [
       {
@@ -19,6 +20,7 @@
         "summary": "",
         "period": "2018 - present",
         "responsibilities": [
+          "Developed mobile application for iOS and Windows that serves a navigation aid for both helicopter and aircraft pilots during all kinds of flight operations in C#; worked with clients to provide best solutions and validate requirements; designed application architecture; optimized memory and CPU/GPU performance in order to improve device stability and battery life; adopted and extended Tangram-ES map rendering library in C++; created native bindings to managed code; take a part in preapring product backlog; performed code reviews to keep systems up to standards;",
           "Developed Know Your Customer (KYC) application which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship; managing application deployment; Designing application architecture;",
           "Developed automotive application for iOS and Android; Developing B2C features; Creating user interface based on provided mockups (Xamarin.Forms);"
         ]
@@ -30,8 +32,8 @@
         "summary": "",
         "period": "2016 - 2018",
         "responsibilities": [
-          "Developed mobile application for iOS and Windows that serves a navigation aid for both helicopter and aircraft pilots during all kinds of flight operations in C#; worked with clients to provide best solutions and validate requirements; designed application architecture; optimized memory and CPU/GPU performance in order to improve device stability and battery life; adopted and extended Tangram-ES map rendering library in C++; created native bindings to managed code; developed user interface based on provided mockups; performed code reviews to keep systems up to standards;",
-          "Developed application in C# that manages and synchronizes user receipts; implemented receipt OCR data recognition; developed user interface based on provided mockups;"
+          "Developed mobile application for iOS and Windows that serves a navigation aid for both helicopter and aircraft pilots during all kinds of flight operations in C#; worked with clients to provide best solutions and validate requirements; designed application architecture; optimized memory and CPU/GPU performance in order to improve device stability and battery life; adopted and extended Tangram-ES map rendering library in C++; created native bindings to managed code; take a part in preapring product backlog; performed code reviews to keep systems up to standards;",
+          "Built application in C# that manages and synchronizes user receipts; implemented receipt OCR data recognition; developed user interface based on provided mockups;"
         ]
       },
       {
@@ -41,8 +43,8 @@
         "summary": "",
         "period": "2015 - 2016",
         "responsibilities": [
-          "Developed Android client for online distribution marketplace in Kotlin/Java; designed and developed user interface based on desktop mockups; created REST client library;",
-          "Designed and developed mobile advertise application in Kotlin and Swift to promote another project;"
+          "Built Android client for online distribution marketplace in Kotlin/Java; designed and developed user interface based on desktop mockups; created REST client library;",
+          "Designed and developed mobile advertise application in Kotlin and Swift to promote company leading project;"
         ]
       },
       {
@@ -53,7 +55,7 @@
         "period": "2014 - 2015",
         "responsibilities": [
           "Developed cross-platform MMO strategy game for iOS, Android and Facebook in C#; worked closely with backend team to met requiremenets; designed and implemented REST client; optimized network performance based on prediction and request batching; implemented number of external payment providers like Xsolla, Google Play and App Store;",
-          "Developed a PoC of multiplayer third person shooter for PC in C# for a Wargaming; developed network synchronization and replication components;"
+          "Developed a PoC of multiplayer third person desktop shooter in C# for a Wargaming; developed network synchronization and replication components;"
         ]
       },
       {
@@ -72,9 +74,10 @@
 
     "contribution": [
       {
-        "period": "2018 - present",
+        "period": "2017 - present",
+        "url": "quantform.io",
         "responsibilities": [
-          "Developed automated trading system (C#); Designing and developing distributed services (Akka.NET); Developing application interface (ASP.NET, Entity Framework, MS SQL); Creating trading algorithms; Integrating third-party services (REST, WebSocket);"
+          "Created open source library for building systematic strategies for trading financial assets in TypeScript; created declarative uniform interface for many platforms e.g. Binance or OANDA; pluged many time-serie storages like InfluxDB or SQLite for backtesting purposes; created a tool to visualize strategy execution in React.js and express.js; built a command line interface to automate and speedup developement;"
         ]
       },
       {
@@ -85,13 +88,21 @@
       },
       {
         "period": "2015 - 2016",
+        "url": "github.com/majchrzak/flurry-unity-3d",
         "responsibilities": [
-          "Third-party maintainer of Yahoo Flurry Analytics plugin for Unity 3D (C#, Objective-C, Java); Maintaining library with is listed on Yahoo official documentation."
+          "Created a Yahoo Flurry Analytics plugin for Unity 3D in C#, Java and Objective-C; become listed as third-party provider on official Yahoo documentation;"
+        ]
+      },
+      {
+        "period": "2014 - 2015",
+        "url": "github.com/majchrzak/storekit-unity-3d",
+        "responsibilities": [
+          "Developed Apple StoreKit plugin for Unity 3D in C# and Objective-C;"
         ]
       }
     ],
 
-    "certification": ["Terraform Associate", "Proffesional Scrum Master"],
+    "certification": [],
 
     "skills": [
       "DDD",
@@ -114,7 +125,7 @@
       "OpenAPI",
       "Swagger",
       "SQL Server",
-      "PostgreSQL",
+      "SQLite",
       "Docker",
       "Terraform",
       "AWS",

@@ -20,7 +20,12 @@ function Section(props: { title: string; children: ReactElement; className?: str
 }
 
 function Overview() {
-  return <p className="headline">{profile.overview.name}</p>;
+  return (
+    <p className="headline my-3">
+      {profile.overview.name}
+      <h1>{profile.overview.title}</h1>
+    </p>
+  );
 }
 
 function About() {
@@ -45,12 +50,22 @@ function TechStack() {
 
 function SelfExperience() {
   return (
-    <Section title="self-driven experience">
+    <Section title="Self-driven experience">
       <Fragment>
         <div className="mt-1">
           {profile.contribution.map(it => (
             <div>
-              <p className="muted">{it.period}</p>
+              <p className="muted">
+                {it.period}
+                {it.url ? (
+                  <Fragment>
+                    {', '}
+                    <a href={`https://${it.url}`} target="_balnk">
+                      {it.url}
+                    </a>
+                  </Fragment>
+                ) : null}
+              </p>
               <ul className="mb-0">
                 {it.responsibilities.map(it => (
                   <li key={it}>{it}</li>
@@ -87,10 +102,13 @@ function CommercialExperience(props: { className?: string }) {
     </Section>
   );
 }
-/*
+
 function Certification() {
   return (
-    <Section title="Certification">
+    <Section
+      title="Certification"
+      className={profile.certification.length ? '' : 'd-none'}
+    >
       <ul>
         {profile.certification.map(it => (
           <li key={it}>
@@ -101,7 +119,7 @@ function Certification() {
     </Section>
   );
 }
-*/
+
 function Languages() {
   return (
     <Section title="Languages">
@@ -199,6 +217,7 @@ function App() {
           <TechStack />
           <CommercialExperience className="d-flex d-md-none" />
           <SelfExperience />
+          <Certification />
           <Languages />
           <Contact />
           <Footer />

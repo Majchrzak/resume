@@ -41,7 +41,9 @@ function TechStack() {
     <Section title="Technical stack">
       <p className="pt-2">
         {profile.skills.map(it => (
-          <span className="tech">{it}</span>
+          <span className="tech" key={it}>
+            {it}
+          </span>
         ))}
       </p>
     </Section>
@@ -54,7 +56,7 @@ function SelfExperience() {
       <Fragment>
         <div className="mt-1">
           {profile.contribution.map(it => (
-            <div>
+            <div key={it.url ?? it.summary}>
               <p className="muted">
                 {it.period}
                 <Fragment>
@@ -86,7 +88,7 @@ function CommercialExperience(props: { className?: string }) {
     <Section title="Commercial experience" className={props.className}>
       <Fragment>
         {profile.experience.map(it => (
-          <div className="my-2">
+          <div className="my-2" key={it.company}>
             <p className="text-uppercase">
               <strong>{it.role}</strong>
             </p>

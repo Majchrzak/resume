@@ -57,14 +57,16 @@ function SelfExperience() {
             <div>
               <p className="muted">
                 {it.period}
-                {it.url ? (
-                  <Fragment>
-                    {', '}
+                <Fragment>
+                  {', '}
+                  {it.url ? (
                     <a href={`https://${it.url}`} target="_balnk">
                       {it.url}
                     </a>
-                  </Fragment>
-                ) : null}
+                  ) : (
+                    it.summary
+                  )}
+                </Fragment>
               </p>
               <ul className="mb-0">
                 {it.responsibilities.map(it => (

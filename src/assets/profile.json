@@ -21,9 +21,9 @@
         "period": "2018 - present",
         "responsibilities": [
           "Took a part in development of factoring application for NFG in C#; ",
-          "Developed an Azure-hosted SaaS scoring microservice application in C#; created client application in Angular and TypeScript; developed IaC in Terraform;",
-          "Architected and developed algorithmic trading application for crypto markets in C#; integrated Python VM into .NET web application for scripting purposes; designed and developed market neutral strategies; worked closely with data scientists to improve performance of existing strategies; automated testing and deployment in Azure DevOps and AWS;",
-          "Developed Know Your Customer backend application for BNP Paribas which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship; developed Angular fronted application in TypeScript; managed deployments and releases; ",
+          "Architected and developed an Azure-hosted SaaS scoring microservice application in C#; developed fronted application in Angular and TypeScript; provided IaC in Terraform;",
+          "Architected and developed algorithmic trading application for cryptocurrency markets in C#; integrated Python language into .NET web application; designed and developed market neutral strategies; worked closely with data scientists to improve performance of existing strategies; automated testing and deployment in Azure DevOps and AWS;",
+          "Developed Know Your Customer microservice application for BNP Paribas in C# which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship; developed fronted application in Angular and TypeScript; worked closely with business analysts and scrum master to meet requirements;",
           "Built new B2C features in automotive application;"
         ]
       },
@@ -34,8 +34,8 @@
         "summary": "",
         "period": "2016 - 2018",
         "responsibilities": [
-          "Developed mobile application for iOS and Windows that serves a navigation aid for both helicopter and aircraft pilots during all kinds of flight operations in C#; worked with clients to provide best solutions and validate requirements; designed application architecture; optimized memory and CPU/GPU performance in order to improve device stability and battery life; adopted and extended Tangram-ES map rendering library in C++; created native bindings to managed code; take a part in preapring product backlog; performed code reviews to keep systems up to standards;",
-          "Built application in C# that manages and synchronizes user receipts; implemented receipt OCR data recognition; developed user interface based on provided mockups;"
+          "Architected and developed mobile application for iOS and Windows that serves a navigation aid for both helicopter and aircraft pilots during all kinds of flight operations in C#; worked with clients to provide best solutions and validate requirements; designed application architecture; optimized memory and CPU/GPU performance in order to improve device stability and battery life; adopted and extended Tangram-ES map rendering library in C++; created native bindings to managed code; take a part in preapring product backlog; performed code reviews to keep systems up to standards;",
+          "Developed application in C# that manages and synchronizes user receipts; implemented receipt OCR data recognition; developed user interface based on provided mockups;"
         ]
       },
       {

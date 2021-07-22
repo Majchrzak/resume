@@ -57,7 +57,7 @@ function SelfExperience() {
         <div className="mt-1">
           {profile.contribution.map(it => (
             <div key={it.url ?? it.summary}>
-              <p className="muted">
+              <p className="muted w600">
                 {it.period}
                 <Fragment>
                   {', '}
@@ -92,7 +92,7 @@ function CommercialExperience(props: { className?: string }) {
             <p className="text-uppercase">
               <strong>{it.role}</strong>
             </p>
-            <p className="muted">
+            <p className="muted w600">
               {it.period}, {it.company}, {it.location}
             </p>
             <ul>

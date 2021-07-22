@@ -21,7 +21,7 @@
         "period": "2018 - present",
         "responsibilities": [
           "Took a part in development of factoring application for NFG in C#; ",
-          "Architected and developed an Azure-hosted SaaS client scoring microservice application in C#; developed fronted application in Angular and TypeScript; created build pipelines and IaC in Terraform;",
+          "Architected and developed an Azure-hosted SaaS scoring microservice application in C#; developed fronted application in Angular and TypeScript; created build pipelines and IaC in Terraform;",
           "Architected and developed algorithmic trading application for cryptocurrency markets in C#; integrated Python language into .NET web application; designed and developed market neutral strategies; worked closely with data scientists to improve performance of existing strategies; automated testing and deployment in Azure DevOps and AWS;",
           "Developed Know Your Customer microservice application for BNP Paribas in C# which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship; developed fronted application in Angular and TypeScript; worked closely with business analysts and scrum master to meet requirements;"
         ]

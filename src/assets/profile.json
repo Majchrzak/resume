@@ -10,7 +10,7 @@
       "linkedin": "linkedin.com/in/m-majchrzak"
     },
 
-    "about": "I'm a software developer with eight years of professional experience. Most recently, I'm focusing on web development especially in finance field. I worked for many diverse software companies from early-stage startups to BNP Paribas S.A.. My leading programming language is C#, but constantly expanding my knowledge to TypeScript. I'm also active open source contributor focusing to deliver high quality software to community.",
+    "about": "I'm a software developer with eight years of professional experience. Most recently, I'm focusing on web development especially in the finance field. I worked for many diverse software companies from early-stage startups to BNP Paribas S.A.. My leading programming language is C#, but constantly expanding my knowledge to TypeScript. I'm also active open source contributor focusing to deliver high-quality software to the community.",
 
     "experience": [
       {
@@ -20,10 +20,10 @@
         "summary": "",
         "period": "2018 - present",
         "responsibilities": [
-          "Took a part in development of factoring application for NFG in C#; ",
-          "Architected and developed an Azure-hosted SaaS scoring microservice application in C#; developed fronted application in Angular and TypeScript; created build pipelines and IaC in Terraform;",
-          "Architected and developed algorithmic trading application for cryptocurrency markets in C#; integrated Python language into .NET web application; designed and developed market neutral strategies; worked closely with data scientists to improve performance of existing strategies; automated testing and deployment in Azure DevOps and AWS;",
-          "Developed Know Your Customer microservice application for BNP Paribas in C# which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship; developed fronted application in Angular and TypeScript; worked closely with business analysts and scrum master to meet requirements;"
+          "Took a part in development of reverse factoring feature for NFG in C#; ",
+          "Architected and developed an Azure-hosted SaaS scoring microservice application in C#; developed frontend application in Angular and TypeScript; created build pipelines and IaC in Terraform;",
+          "Architected and developed an algorithmic trading application for cryptocurrency markets in C#; integrated Python language into .NET web application; designed and developed market neutral strategies; worked closely with data scientists to improve performance of existing strategies; automated testing and deployment in Azure DevOps and AWS;",
+          "Developed Know Your Customer microservice application for BNP Paribas in C# which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship; developed frontend application in Angular and TypeScript; worked closely with business analysts and scrum master to meet requirements;"
         ]
       },
       {
@@ -33,8 +33,8 @@
         "summary": "",
         "period": "2016 - 2018",
         "responsibilities": [
-          "Architected and developed mobile application for iOS and Windows that serves a navigation aid for both helicopter and aircraft pilots during all kinds of flight operations in C#; worked with clients to provide best solutions and validate requirements; optimized memory and CPU/GPU performance in order to improve device stability and battery life; adopted and extended Tangram-ES map rendering library in C++; prepared product backlog items;",
-          "Developed application in C# that manages and synchronizes user receipts; implemented receipt OCR data recognition; developed user interface based on provided mockups;"
+          "Architected and developed a mobile application for iOS and Windows that serves a navigation aid for both helicopter and aircraft pilots during all kinds of flight operations in C#; worked with clients to provide best solutions and validate requirements; optimized memory and CPU/GPU performance to improve device stability and battery life; adopted and extended Tangram-ES map rendering library in C++; prepared product backlog items;",
+          "Developed application in C# that manages and synchronizes user receipts for Skanska; implemented receipt OCR data recognition; developed user interface based on provided mockups;"
         ]
       },
       {
@@ -55,8 +55,8 @@
         "summary": "",
         "period": "2014 - 2015",
         "responsibilities": [
-          "Developed cross-platform MMO strategy game for iOS, Android and Facebook in C#; worked closely with backend team to met requiremenets; designed and implemented REST client; optimized network performance based on prediction and request batching; implemented number of external payment providers like Xsolla, Google Play and App Store;",
-          "Developed a PoC of multiplayer third person desktop shooter in C# for a Wargaming; developed network synchronization and replication components;"
+          "Developed cross-platform MMO strategy game for iOS, Android, and Facebook in C#; worked closely with backend team to met requirements; designed and implemented REST client; optimized network performance based on prediction and request batching; implemented number of external payment providers like Xsolla, Google Play and App Store;",
+          "Developed a PoC of multiplayer third-person desktop shooter in C# for a Wargaming; developed network synchronization and replication components;"
         ]
       },
       {
@@ -66,8 +66,8 @@
         "summary": "",
         "period": "2013 - 2014",
         "responsibilities": [
-          "Written a software to convert games from Torque Engine into Unity 3D in C#; ported serie of time management strategy games from PC to mobile;",
-          "Took a part in development of VR application for large area stores; developed a heatmap system to track client eyes in C++;",
+          "Written a software to convert games from Torque Engine into Unity 3D in C#; ported series of time management strategy games from PC to mobile;",
+          "Took a part in the development of VR application for large-area stores; developed a heatmap system to track client eyes in C++;",
           "Created game framework in JavaScript and HTML5 (Canvas); developed over 20 simple educational games based on this framework;"
         ]
       }
@@ -78,21 +78,21 @@
         "period": "2017 - present",
         "url": "quantform.io",
         "responsibilities": [
-          "Created open source library for building systematic strategies for trading financial assets in TypeScript; created declarative uniform interface for many platforms e.g. Binance or OANDA; pluged many time-serie storages like InfluxDB or SQLite for backtesting purposes; created a tool to visualize strategy execution in React.js and express.js; built a command line interface to automate and speedup developement;"
+          "Created open-source library for building systematic strategies for trading financial assets in TypeScript; created a declarative uniform interface for many platforms e.g. Binance or OANDA; plugged many time-series storages like InfluxDB or SQLite for backtesting purposes; created a tool to visualize strategy execution in React.js and express.js; built a command-line interface to automate and speed up development;"
         ]
       },
       {
         "period": "2016 - 2017",
         "summary": "private project",
         "responsibilities": [
-          "Developed first class secure messaging mobile application in Kotlin; designed and created a communication protocol built on top of blockchain technology; implemented end-to-end data encryption; developed hierarchical deterministic Bitcoin wallet;"
+          "Developed first-class secure messaging mobile application in Kotlin; designed and created a communication protocol built on top of blockchain technology; implemented end-to-end data encryption; developed hierarchical deterministic Bitcoin wallet;"
         ]
       },
       {
         "period": "2015 - 2016",
         "url": "github.com/majchrzak/flurry-unity-3d",
         "responsibilities": [
-          "Created a Yahoo Flurry Analytics plugin for Unity 3D in C#, Java and Objective-C; become listed as third-party provider on official Yahoo documentation;"
+          "Created a Yahoo Flurry Analytics plugin for Unity 3D in C#, Java, and Objective-C; become listed as a third-party provider on official Yahoo documentation;"
         ]
       },
       {

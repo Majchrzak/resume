@@ -20,7 +20,7 @@
         "summary": "",
         "period": "2018 - present",
         "responsibilities": [
-          "Took a part in development of reverse factoring feature for NFG in C#; ",
+          "Took a part in development of reverse factoring feature for existing NFG application in C#;",
           "Architected and developed an Azure-hosted SaaS scoring microservice application in C#; developed frontend application in Angular and TypeScript; created build pipelines and IaC in Terraform;",
           "Architected and developed an algorithmic trading application for cryptocurrency markets in C#; integrated Python language into .NET web application; designed and developed market neutral strategies; worked closely with data scientists to improve performance of existing strategies; automated testing and deployment in Azure DevOps and AWS;",
           "Developed Know Your Customer microservice application for BNP Paribas in C# which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship; developed frontend application in Angular and TypeScript; worked closely with business analysts and scrum master to meet requirements;"
@@ -92,7 +92,7 @@
         "period": "2015 - 2016",
         "url": "github.com/majchrzak/flurry-unity-3d",
         "responsibilities": [
-          "Created a Yahoo Flurry Analytics plugin for Unity 3D in C#, Java, and Objective-C; become listed as a third-party provider on official Yahoo documentation;"
+          "Created a Yahoo Flurry Analytics plugin for Unity 3D in C#, Java, and Objective-C; get listed as a third-party provider on official Yahoo documentation;"
         ]
       },
       {

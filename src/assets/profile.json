@@ -78,12 +78,12 @@
         "period": "2017 - present",
         "url": "quantform.io",
         "responsibilities": [
-          "Created open-source library for building systematic strategies for trading financial assets in TypeScript; created a declarative uniform interface for many platforms e.g. Binance or OANDA; plugged many time-series storages like InfluxDB or SQLite for backtesting purposes; created a tool to visualize strategy execution in React.js and express.js; built a command-line interface to automate and speed up development;"
+          "Created open-source library for building systematic strategies for trading financial assets in TypeScript; created a declarative uniform interface for centralized and decentralized exchanges; plugged time-series storages like InfluxDB or SQLite for backtesting purposes; created a tool to visualize strategy execution in React.js and express.js; built a command-line interface to automate and speed up development;"
         ]
       },
       {
         "period": "2016 - 2017",
-        "summary": "private project",
+        "summary": "startup",
         "responsibilities": [
           "Developed first-class secure messaging mobile application in Kotlin; designed and created a communication protocol built on top of blockchain technology; implemented end-to-end data encryption; developed hierarchical deterministic Bitcoin wallet;"
         ]

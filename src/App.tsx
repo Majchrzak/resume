@@ -52,7 +52,7 @@ function TechStack() {
 
 function SelfExperience() {
   return (
-    <Section title="Self-driven experience">
+    <Section title="Self-driven experience &#38; open source">
       <Fragment>
         <div className="mt-1">
           {profile.contribution.map(it => (

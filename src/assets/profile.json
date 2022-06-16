@@ -85,6 +85,13 @@
 
     "contribution": [
       {
+        "period": "2022 - present",
+        "url": "pepperoni.finance",
+        "responsibilities": [
+          "Created a Web 3.0 project to rebalance in easy way a portfolio of assets in Ethereum blockchain; the project is based on Uniswap protocol and a design of application is highly inspired by Uniswap App; the project is currently in development phase and is not yet ready for use;"
+        ]
+      },
+      {
         "period": "2017 - present",
         "url": "quantform.io",
         "responsibilities": [
@@ -126,10 +133,12 @@
       "Xamarin",
       "Unity 3D",
       "Node.js",
+      "React",
       "Angular 2",
+      "NextJS",
       "TypeScript",
       "CSS",
-      "SCSS",
+      "Tailwind CSS",
       "HTML",
       "Bootstrap",
       "RxJS",

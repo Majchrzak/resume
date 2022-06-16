@@ -88,7 +88,7 @@
         "period": "2022 - present",
         "url": "pepperoni.finance",
         "responsibilities": [
-          "Created a Web 3.0 project to rebalance in easy way a portfolio of assets in Ethereum blockchain; the project is based on Uniswap protocol and a design of application is highly inspired by Uniswap App; the project is currently in development phase and is not yet ready for use;"
+          "Created a Web 3.0 project to rebalance in easy way a portfolio of assets in Ethereum blockchain; the project is based on Uniswap protocol and a design of application is highly inspired by Uniswap App; the project is currently in development phase and is not yet ready for use; the solution is powered by Next.js, React and is hosted on Vercel;"
         ]
       },
       {
@@ -135,7 +135,7 @@
       "Node.js",
       "React",
       "Angular 2",
-      "NextJS",
+      "Next.js",
       "TypeScript",
       "CSS",
       "Tailwind CSS",

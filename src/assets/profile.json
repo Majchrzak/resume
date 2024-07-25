@@ -9,157 +9,121 @@
       "github": "github.com/majchrzak",
       "linkedin": "linkedin.com/in/m-majchrzak"
     },
-
-    "about": "I'm a software engineer with nine years of professional experience in software development. Most recently, I'm focusing on web development, especially in the finance field. I worked for many diverse software companies from early-stage startups to large companies like BNP Paribas or Pfizer. My leading programming language is C#, but constantly expanding my knowledge to TypeScript. I'm also an active open source contributor focusing to deliver high-quality software to the community.",
-
+    "about": "I'm a senior software engineer with ten eleven of professional experience in software development. Most recently, I'm focusing on web development, especially in the finance field. I worked for many diverse software companies from early-stage startups to large companies like Ramp.Network, BNP Paribas or Pfizer. My leading programming languages are TypeScript and C#, but constantly expanding my knowledge to Rust. I'm also an active open source contributor focusing to deliver high-quality software to the community.",
     "experience": [
       {
-        "role": ".NET Senior Developer",
-        "company": "C&F S.A.",
+        "role": "SENIOR SOFTWARE ENGINEER (TYPESCRIPT)",
+        "company": "Ramp Network sp. z o.o.",
         "location": "(remote)",
         "summary": "",
-        "period": "2021 - present",
+        "period": "2022 - present",
         "responsibilities": [
-          "Took a part in the development of microservice backend application in C# to coordinate and manage a work of all business units in Pfizer;",
-          "Developed a frontend application in Angular and TypeScript to visualize and optimize a production of components in Pfizer;"
+          "Contributed to the development of on-ramp and off-ramp products for exchanging cryptocurrencies for fiat money using Node.js. Focused on the Risk and Compliance segment to ensure compliance with legal requirements and to provide a fast and efficient verification process for both new and existing users."
         ]
       },
       {
-        "role": ".NET Senior Developer",
+        "role": "SENIOR SOFTWARE ENGINEER (C#/TYPESCRIPT)",
+        "company": "C&F S.A.",
+        "location": "(remote)",
+        "summary": "",
+        "period": "2021 - 2022",
+        "responsibilities": [
+          "Participated in the development of a microservice backend application using C# to coordinate and manage the workflow of all production units in Pfizer. This involved collaborating closely with the product owner and other team members to ensure timely delivery and high-quality code.",
+          "Developed a frontend application in Angular and TypeScript for Pfizer that visualizes and optimizes the production of components, providing an efficient and streamlined production process for the company."
+        ]
+      },
+      {
+        "role": "SENIOR SOFTWARE ENGINEER (C#/TYPESCRIPT)",
         "company": "ITMAGINATION  sp. z o.o.",
         "location": "(remote)",
         "summary": "",
         "period": "2018 - 2021",
         "responsibilities": [
-          "Architected and developed an Azure-hosted SaaS client scoring application in C#; developed frontend application in Angular and TypeScript; created and managed build pipelines and IaC in Terraform;",
-          "Architected and developed an algorithmic trading application for cryptocurrency markets in C#; integrated Python language into .NET web application; designed and developed market neutral strategies; worked closely with data scientists to improve performance of existing strategies; automated testing and deployment in Azure DevOps and AWS;",
-          "Developed Know Your Customer microservice application for BNP Paribas in C# which automates verifying the identity of clients and assessing potential risks of illegal intentions for the business relationship; developed frontend application in Angular and TypeScript; worked closely with business analysts and scrum master to meet requirements;"
+          "Architected and developed an algorithmic trading application for cryptocurrency markets in C#, integrated Python language into a .NET web application, and developed market-neutral strategies. Worked closely with data scientists to improve the performance of existing strategies, automated testing, and deployment using Azure DevOps and AWS, resulting in a successful and profitable trading platform.",
+          "Developed a Know Your Customer microservice application for BNP Paribas in C#, automating client identity verification and assessing potential risks of illegal intentions for business relationships. Developed the frontend application using Angular and TypeScript and worked closely with business analysts and scrum masters to meet all project requirements.",
+          "Architected and developed an Azure-hosted SaaS client scoring application in C#. Developed the frontend application using Angular and TypeScript, while creating and managing build pipelines and IaC in Terraform to ensure seamless deployment and high performance."
         ]
       },
       {
-        "role": ".NET/C++ Senior Developer",
+        "role": "REGULAR SOFTWARE ENGINEER (C#/C++)",
         "company": "Order Group sp. z o.o.",
         "location": "Poland, Warsaw",
         "summary": "",
         "period": "2016 - 2018",
         "responsibilities": [
-          "Architected and developed a mobile application for iOS and Windows that serves a navigation aid for both helicopter and aircraft pilots during all kinds of flight operations in C#; worked with clients to provide best solutions and validate requirements; optimized memory and CPU/GPU performance to improve device stability and battery life; adopted and extended Tangram-ES map rendering library in C++;",
-          "Developed application in C# that manages and synchronizes user receipts for SKANSKA; implemented receipt OCR data recognition; developed user interface based on provided mockups;"
+          "Architected and developed a mobile application for iOS and Windows designed to aid both helicopter and aircraft pilots during all types of flight operations using C#. Through close collaboration with clients, ensured the application met their requirements and provided the best solutions while also optimizing memory and CPU/GPU performance to improve device stability and battery life.",
+          "Developed an application in C# that manages and synchronizes user receipts for SKANSKA. Implemented a system that accurately identified receipt data while also developing a user interface based on provided mockups to ensure ease-of-use for users."
         ]
       },
       {
-        "role": ".NET Regular Developer",
-        "company": "Freelance",
-        "location": "Poland, Warsaw",
-        "summary": "",
-        "period": "2015 - 2016",
-        "responsibilities": [
-          "Built Android client for online distribution marketplace in Kotlin/Java; designed and developed user interface based on desktop mockups;",
-          "Designed and developed mobile advertise application in Kotlin and Swift to promote company leading project;"
-        ]
-      },
-      {
-        "role": ".NET Regular Developer",
+        "role": "REGULAR SOFTWARE ENGINEER (C#)",
         "company": "Fuero Games sp. z o.o.",
         "location": "Poland, Warsaw",
         "summary": "",
-        "period": "2014 - 2015",
+        "period": "2014 - 2016",
         "responsibilities": [
-          "Developed cross-platform MMO strategy game for iOS, Android, and Facebook in C#; worked closely with backend team to met requirements; optimized network performance based on prediction and request batching; implemented number of external payment providers like Xsolla, Google Play and App Store;",
-          "Developed a PoC of multiplayer third-person desktop shooter in C# for a Wargaming; developed network synchronization and replication components;"
+          "Developed a cross-platform MMO strategy game for iOS, Android, and Facebook using C#. Implemented optimizations that enhanced network performance by leveraging prediction and request batching, while also integrating external payment providers such as Xsolla, Google Play, and the App Store to provide seamless payment options to users.",
+          "Developed a PoC multiplayer third-person desktop shooter in C# for Wargaming, implemented network synchronization and replication components to create a seamless and engaging gaming experience. Ensured that the PoC met all requirements and exceeded expectations."
         ]
       },
       {
-        "role": ".NET/C++ Developer",
+        "role": "JUNIOR SOFTWARE DEVELOPER (C#/JAVASCRIPT)",
         "company": "Nitreal",
         "location": "Poland, Warsaw",
         "summary": "",
         "period": "2013 - 2014",
         "responsibilities": [
-          "Developed game converter to convert games from Torque Engine into Unity 3D in C#; ported a series of time management strategy games from PC to mobile;",
-          "Took a part in the development of VR application for large-area stores; developed a heatmap system to track client eyes in C++;",
-          "Created game framework in JavaScript and HTML5 (Canvas); developed over 20 simple educational games based on this framework;"
+          "Ported a suite of leading company products from legacy technology to the Unity 3D platform, delivering improved performance and enhancing the user experience successfully bringing a series of popular time management strategy games from PC to mobile.",
+          "Created a comprehensive framework in JavaScript to support the development of interactive, educational games. Utilizing this framework, developed twenty engaging educational games designed to engage and entertain users while also promoting learning and knowledge retention."
         ]
       }
     ],
-
     "contribution": [
       {
         "period": "2022 - present",
         "url": "pepperoni.finance",
         "responsibilities": [
-          "Created a Web 3.0 project to rebalance in easy way a portfolio of assets in Ethereum blockchain; the project is based on Uniswap protocol and a design of application is highly inspired by Uniswap App; the project is currently in development phase and is not yet ready for use; the solution is powered by Next.js, React and is hosted on Vercel;"
+          "Developed a Web 3.0 project that enables easy portfolio asset rebalancing on the Ethereum blockchain using Uniswap protocol, with a design inspired by the Uniswap App. The project is currently in early development and powered by Next.js, React, and hosted on Vercel."
         ]
       },
       {
         "period": "2017 - present",
         "url": "quantform.io",
         "responsibilities": [
-          "Created an open-source Node.js library for building reactive algorithmic trading strategies for cryptocurrencies based on RxJS in TypeScript; designed a declarative uniform interface for centralized and decentralized exchanges; created a web tool to trace and visualize strategy execution in React and Next.js; built a command-line interface automate development and manage execution; created a documentation and landing page for project;"
+          "Created an open-source Node.js library in TypeScript for building reactive algorithmic trading strategies for cryptocurrencies using RxJS. Designed a uniform reactive interface to interact with both centralized and decentralized exchanges, built a web tool to trace and visualize strategy execution. Created a command-line interface for automated development and execution management. Prepared technical documentation and a landing page for the project."
         ]
       },
       {
         "period": "2016 - 2017",
         "summary": "startup",
         "responsibilities": [
-          "Developed first-class secure messaging mobile application in Kotlin; designed and created a communication protocol built on top of Bitcoin blockchain; implemented end-to-end data encryption; developed hierarchical deterministic Bitcoin wallet;"
+          "Developed a secure messaging mobile application using Kotlin, implementing end-to-end encryption and a hierarchical deterministic Bitcoin wallet. The communication protocol was built on top of the Bitcoin blockchain, ensuring top-notch security for users."
         ]
       },
       {
         "period": "2015 - 2016",
         "url": "github.com/majchrzak/flurry-unity-3d",
         "responsibilities": [
-          "Created a Yahoo Flurry Analytics plugin for Unity 3D in C#, Java, and Objective-C; get listed as a third-party provider on official Yahoo documentation;"
+          "Developed a Yahoo Flurry Analytics plugin for Unity 3D in multiple languages such as C#, Java, and Objective-C, which enabled developers to easily integrate analytics into their Unity-based mobile games. The plugin was officially recognized by Yahoo and listed as a third-party provider on their documentation."
         ]
       },
       {
         "period": "2014 - 2015",
         "url": "github.com/majchrzak/storekit-unity-3d",
         "responsibilities": [
-          "Developed Apple StoreKit plugin for Unity 3D in C# and Objective-C;"
+          "Created an Apple StoreKit plugin for Unity 3D that allows developers to easily add in-app purchase functionality to their iOS games. With features such as secure transaction handling, receipt validation, and subscription management, the plugin simplifies the process of monetizing games on the App Store."
         ]
       }
     ],
-
     "certification": [],
-
     "skills": [
       "DDD",
       "TDD",
-      "C#",
-      ".NET Core",
-      ".NET Framework",
-      "ASP.NET Core",
-      "Xamarin",
-      "Unity 3D",
-      "Node.js",
-      "React",
-      "Angular 2",
-      "Next.js",
       "TypeScript",
-      "CSS",
-      "Tailwind CSS",
-      "HTML",
-      "Bootstrap",
-      "RxJS",
-      "OpenAPI",
-      "Swagger",
-      "SQL Server",
-      "SQLite",
-      "Docker",
-      "Terraform",
-      "AWS",
-      "Azure DevOps",
-      "RabbitMQ",
-      "Visual Studio",
-      "VSCode",
-      "Rider",
-      "Windows",
-      "macOS",
-      "Git",
-      "SCRUM"
+      "Node.js",
+      "C#",
+      ".NET Core"
     ],
-
     "language": [
       {
         "name": "Polish",
@@ -170,7 +134,6 @@
         "summary": "Upper-intermediate proficiency"
       }
     ],
-
     "clause": "I agree to the processing of personal data provided in this document for realising the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)"
   }
 }

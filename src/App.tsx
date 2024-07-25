@@ -4,7 +4,9 @@ import './App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { profile } from './assets/profile.json';
+import asset from './assets/profile.json';
+
+const profile = asset.profile;
 
 function Section(props: { title: string; children: ReactElement; className?: string }) {
   return (
@@ -211,12 +213,8 @@ function App() {
   return (
     <Container>
       <Row>
-        <Col>
-          <Overview />
-        </Col>
-      </Row>
-      <Row>
         <Col md="6">
+          <Overview />
           <About />
           <TechStack />
           <CommercialExperience className="d-flex d-md-none" />

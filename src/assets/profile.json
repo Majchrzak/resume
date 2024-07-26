@@ -39,8 +39,8 @@
         "summary": "",
         "period": "2018 - 2021",
         "responsibilities": [
-          "Architected and developed an algorithmic trading application for cryptocurrency markets in C#, integrated Python language into a .NET web application, and developed market-neutral strategies. Worked closely with data scientists to improve the performance of existing strategies, automated testing, and deployment using Azure DevOps and AWS, resulting in a successful and profitable trading platform.",
-          "Developed a Know Your Customer microservice application for BNP Paribas in C#, automating client identity verification and assessing potential risks of illegal intentions for business relationships. Developed the frontend application using Angular and TypeScript and worked closely with business analysts and scrum masters to meet all project requirements.",
+          "Architected a C# algorithmic trading app for cryptocurrencies, integrating Python into a .NET web application. Collaborated with data scientists to enhance strategy performance and automated testing and deployment using Azure DevOps and AWS.",
+          "Developed a KYC microservice for BNP Paribas in C#, automating client verification and risk assessment. Created the frontend with Angular and TypeScript, collaborating with analysts and product owners to meet project requirements.",
           "Architected and developed an Azure-hosted SaaS client scoring application in C#. Developed the frontend application using Angular and TypeScript, while creating and managing build pipelines and IaC in Terraform to ensure seamless deployment and high performance."
         ]
       },
@@ -80,17 +80,24 @@
     ],
     "contribution": [
       {
-        "period": "2022 - present",
-        "url": "pepperoni.finance",
-        "responsibilities": [
-          "Developed a Web 3.0 project that enables easy portfolio asset rebalancing on the Ethereum blockchain using Uniswap protocol, with a design inspired by the Uniswap App. The project is currently in early development and powered by Next.js, React, and hosted on Vercel."
-        ]
-      },
-      {
         "period": "2017 - present",
         "url": "quantform.io",
         "responsibilities": [
-          "Created an open-source Node.js library in TypeScript for building reactive algorithmic trading strategies for cryptocurrencies using RxJS. Designed a uniform reactive interface to interact with both centralized and decentralized exchanges, built a web tool to trace and visualize strategy execution. Created a command-line interface for automated development and execution management. Prepared technical documentation and a landing page for the project."
+          "Created an open-source Node.js library in TypeScript for building reactive algorithmic trading strategies using RxJS. Designed an interface for both centralized and decentralized exchanges, and built tools for strategy execution and management. Also prepared technical documentation and a landing page."
+        ]
+      },
+      {
+        "period": "2023 - present",
+        "url": "reth.rs",
+        "responsibilities": [
+          "Contributed to blazing-fast implementation of the Ethereum protocol to gain knowledge about ethereum nodes and learn Rust."
+        ]
+      },
+      {
+        "period": "2022 - 2022",
+        "url": "pepperoni.finance",
+        "responsibilities": [
+          "Developed a Web 3.0 project that enables easy portfolio asset rebalancing on the Ethereum blockchain using Uniswap protocol, with a design inspired by the Uniswap App powered by Next.js, React, and hosted on Vercel."
         ]
       },
       {

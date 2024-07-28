@@ -9,7 +9,7 @@
       "github": "github.com/majchrzak",
       "linkedin": "linkedin.com/in/m-majchrzak"
     },
-    "about": "I'm a senior software engineer with ten eleven of professional experience in software development. Most recently, I'm focusing on web development, especially in the finance field. I worked for many diverse software companies from early-stage startups to large companies like Ramp.Network, BNP Paribas or Pfizer. My leading programming languages are TypeScript and C#, but constantly expanding my knowledge to Rust. I'm also an active open source contributor focusing to deliver high-quality software to the community.",
+    "about": "I'm a senior software engineer with ten years of professional experience in software development. Most recently, I'm focusing on web development, especially in the finance field. I worked for many diverse software companies from early-stage startups to large companies like Ramp.Network, BNP Paribas or Pfizer. My leading programming languages are TypeScript and C#, but constantly expanding my knowledge to Rust. I'm also an active open source contributor focusing to deliver high-quality software to the community.",
     "experience": [
       {
         "role": "SENIOR SOFTWARE ENGINEER (TYPESCRIPT)",
@@ -39,7 +39,7 @@
         "summary": "",
         "period": "2018 - 2021",
         "responsibilities": [
-          "Architected a C# algorithmic trading app for cryptocurrencies, integrating Python into a .NET web application. Collaborated with data scientists to enhance strategy performance and automated testing and deployment using Azure DevOps and AWS.",
+          "Architected a C# algorithmic trading application for cryptocurrencies. Collaborated with data scientists to enhance strategy performance. Managed deployment using Azure DevOps and AWS.",
           "Developed a KYC microservice for BNP Paribas in C#, automating client verification and risk assessment. Created the frontend with Angular and TypeScript, collaborating with analysts and product owners to meet project requirements.",
           "Architected and developed an Azure-hosted SaaS client scoring application in C#. Developed the frontend application using Angular and TypeScript, while creating and managing build pipelines and IaC in Terraform to ensure seamless deployment and high performance."
         ]
@@ -51,8 +51,8 @@
         "summary": "",
         "period": "2016 - 2018",
         "responsibilities": [
-          "Architected and developed a mobile application for iOS and Windows designed to aid both helicopter and aircraft pilots during all types of flight operations using C#. Through close collaboration with clients, ensured the application met their requirements and provided the best solutions while also optimizing memory and CPU/GPU performance to improve device stability and battery life.",
-          "Developed an application in C# that manages and synchronizes user receipts for SKANSKA. Implemented a system that accurately identified receipt data while also developing a user interface based on provided mockups to ensure ease-of-use for users."
+          "Architected and developed a mobile application for iOS and Windows designed to aid both helicopter and aircraft pilots during all types of flight operations using C#. Through close collaboration with clients, ensured the application met their requirements and provided the best solutions while also optimizing memory and CPU/GPU performance.",
+          "Developed an application in C# to manage and synchronize user receipts for SKANSKA. Implemented a system that accurately identified receipt data while also developing a user interface based on provided mockups to ensure ease-of-use for users."
         ]
       },
       {
@@ -83,7 +83,7 @@
         "period": "2017 - present",
         "url": "quantform.io",
         "responsibilities": [
-          "Created an open-source Node.js library in TypeScript for building reactive algorithmic trading strategies using RxJS. Designed an interface for both centralized and decentralized exchanges, and built tools for strategy execution and management. Also prepared technical documentation and a landing page."
+          "Created an open-source Node.js library in TypeScript for building reactive algorithmic trading strategies using RxJS. Designed an uniform interface for crypto exchanges, and built tools for strategy execution and management. Also prepared technical documentation and a landing page."
         ]
       },
       {

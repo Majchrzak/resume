@@ -56,7 +56,7 @@ function SelfExperience() {
   return (
     <Section title="Self-driven experience &#38; open source">
       <Fragment>
-        <div className="mt-1">
+        <div className="my-2">
           {profile.contribution.map(it => (
             <div key={it.url ?? it.summary}>
               <p className="muted w600">
@@ -171,9 +171,6 @@ function Contact() {
             <li key="phone" className="phone">
               {profile.overview.phone}
             </li>
-            <li key="location" className="location">
-              {profile.overview.location}
-            </li>
           </ul>
         </Col>
         <Col sm="6">
@@ -211,7 +208,7 @@ function Footer() {
 
 function App() {
   return (
-    <Container>
+    <Container className="mt-4">
       <Row>
         <Col md="6">
           <Overview />

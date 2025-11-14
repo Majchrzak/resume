@@ -1,5 +1,5 @@
 body {
-  font-size: 14px;
+  font-size: 15px;
   text-align: justify;
   font-family: 'Cairo', sans-serif;
 }
@@ -16,7 +16,7 @@ p {
 ul {
   padding-left: 1rem;
   margin-top: 0rem;
-  margin-bottom: 0rem;
+  margin-bottom: 1rem;
 }
 
 li {

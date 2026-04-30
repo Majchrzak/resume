@@ -126,14 +126,16 @@
       "Node.js",
       "NestJS",
       "PostgreSQL",
-      "RxJS",
       "Redis",
       "RabbitMQ",
       "Docker",
+      "AWS",
+      "RxJS",
       "DDD",
       "TDD",
       "CI/CD",
-      "AWS"
+      "Cursor",
+      "Codex"
     ],
     "language": [
       {

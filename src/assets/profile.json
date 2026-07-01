@@ -2,14 +2,14 @@
   "profile": {
     "overview": {
       "name": "Mateusz Majchrzak",
-      "title": "Senior software engineer",
+      "title": "Senior Node.js engineer",
       "mail": "majchrzak@outlook.com",
       "phone": "(+48) 508 387 828",
       "location": "Warsaw, Poland",
       "github": "github.com/majchrzak",
       "linkedin": "linkedin.com/in/m-majchrzak"
     },
-    "about": "I'm a senior software engineer with 10+ years of professional experience, focused on web development in the finance and crypto space. I’ve worked across a wide range of environments from early-stage startups and scaleups to large organizations. My primary programming languages are TypeScript and C#. I’m also an active open-source contributor, committed to delivering high-quality software to the community.",
+    "about": "I'm a senior software engineer with 10+ years of experience across fintech, quantitative finance, crypto, gaming, and enterprise software. Specialized in TypeScript, C#, distributed systems, realtime applications, cloud infrastructure, and AI-powered platforms. Passionate about building products at the intersection of software engineering, finance, and artificial intelligence, with a strong focus on scalable systems, developer tools, and open-source software.",
     "experience": [
       {
         "role": "SENIOR SOFTWARE ENGINEER (TYPESCRIPT)",
@@ -88,14 +88,14 @@
         "period": "2025 - present",
         "url": "vaultance.com",
         "responsibilities": [
-          "Researching and implementing market-neutral trading strategies on Solana with the goal of delivering stable, low-risk ~20% annual returns. Developed on-chain keepers and integrated Solana ecosystem protocols including Jupiter, Drift, and Pyth to support automated execution."
+          "Researched and implemented market-neutral trading strategies on Solana. Developed automated execution infrastructure and on-chain keepers, integrating Jupiter, Drift, and Pyth for strategy execution and risk management."
         ]
       },
       {
-        "period": "2020 - 2024",
+        "period": "2020 - 2026",
         "url": "quantform.io",
         "responsibilities": [
-          "Created an open-source Node.js library in TypeScript for building reactive algorithmic trading strategies using RxJS. Designed a unified interface for multiple crypto exchanges and built tooling for strategy execution and management."
+          "Developed an open-source event-driven automation runtime for financial markets and crypto exchanges. Enabled reactive trading strategies through a unified TypeScript and RxJS-based framework."
         ]
       },
       {
@@ -128,14 +128,16 @@
       "PostgreSQL",
       "Redis",
       "RabbitMQ",
+      "Kafka",
       "Docker",
       "AWS",
       "RxJS",
       "DDD",
       "TDD",
       "CI/CD",
-      "Cursor",
-      "Codex"
+      "AI-assisted Development",
+      "Claude",
+      "ChatGPT"
     ],
     "language": [
       {

@@ -2,121 +2,153 @@
   "profile": {
     "overview": {
       "name": "Mateusz Majchrzak",
-      "title": "Senior Node.js engineer",
       "mail": "majchrzak@outlook.com",
       "phone": "(+48) 508 387 828",
       "location": "Warsaw, Poland",
       "github": "github.com/majchrzak",
       "linkedin": "linkedin.com/in/m-majchrzak"
     },
-    "about": "I'm a senior software engineer with 10+ years of experience across fintech, quantitative finance, crypto, gaming, and enterprise software. Specialized in TypeScript, C#, distributed systems, realtime applications, cloud infrastructure, and AI-powered platforms. Passionate about building products at the intersection of software engineering, finance, and artificial intelligence, with a strong focus on scalable systems, developer tools, and open-source software.",
+    "about": "Senior Software Engineer with 12+ years of experience designing distributed systems, realtime platforms and high-performance backend applications across finance, healthcare, gaming and AI. Strong background in event-driven architectures and microservices, with experience leading technical initiatives from architecture and system design through production delivery. Passionate about building reliable software and applying modern AI technologies to solve complex real-world problems.",
     "experience": [
       {
-        "role": "SENIOR SOFTWARE ENGINEER (TYPESCRIPT)",
-        "company": "Ramp Swaps",
+        "role": "Senior Software Engineer (TypeScript)",
+        "company": "Ramp Network",
         "location": "United Kingdom, remote",
-        "summary": "",
+        "summary": "Technical owner of Risk & Compliance services powering regulated cryptocurrency on-ramp and off-ramp products.",
         "period": "2022 - present",
         "responsibilities": [
-          "Owned backend components of the on-ramp/off-ramp cryptocurrency flow within the Risk & Compliance domain. Improved user verification speed and reliability, leading to higher conversion during KYC and onboarding while maintaining full regulatory compliance."
+          "Architected distributed backend services for KYC, AML and transaction risk assessment across internal and external systems.",
+          "Led design and delivery of new platform capabilities with Product, Compliance and Engineering teams.",
+          "Designed event-driven workflows and asynchronous pipelines to improve scalability, resilience and onboarding.",
+          "Introduced event-sourcing patterns for compliance domains requiring auditability and traceability.",
+          "Defined service boundaries, API contracts and integration strategies across a distributed architecture.",
+          "Designed resilient third-party integrations with retry, failure recovery and improved observability."
         ]
       },
       {
-        "role": "SENIOR SOFTWARE ENGINEER (TYPESCRIPT)",
+        "role": "Senior Software Engineer (TypeScript)",
         "company": "Pfizer",
         "location": "United States, remote",
-        "summary": "",
+        "summary": "Technical owner of distributed manufacturing workflow services supporting global pharmaceutical production and operational visibility.",
         "period": "2020 - 2022",
         "responsibilities": [
-          "Owned backend microservices coordinating production workflows across Pfizer’s global manufacturing units and developed a frontend that visualized component production. Collaborated closely with product and engineering teams to deliver reliable, high-quality solutions that improved operational efficiency and streamlined decision-making."
+          "Architected distributed backend services orchestrating manufacturing workflows across global production facilities.",
+          "Designed event-driven integrations enabling reliable workflow automation and operational data exchange.",
+          "Built realtime dashboards providing end-to-end visibility into production processes and manufacturing status.",
+          "Partnered with Product Owners to improve production planning, traceability and operational decision-making.",
+          "Defined service boundaries, API contracts and integration patterns across a distributed microservice architecture.",
+          "Collaborated with global engineering teams to deliver production-critical capabilities with high reliability."
         ]
       },
       {
-        "role": "SENIOR SOFTWARE ENGINEER (TYPESCRIPT/C#)",
-        "company": "stealth startup",
+        "role": "Founding Engineer (TypeScript/C#)",
+        "company": "HFTX",
         "location": "Poland, on-site",
-        "summary": "",
+        "summary": "Founding engineer responsible for architecting and building the technology platform of a quantitative investment startup from inception to live trading, working directly with the founders across engineering, infrastructure and systematic trading.",
         "period": "2019 - 2020",
         "responsibilities": [
-          "Led and architected an algorithmic trading platform to bootstrap a private family-and-friends investment fund for founders, designing both the system and the trading strategies. Collaborated with data scientists to refine and improve performance, achieving over 100% returns in the first year. Managed funds, development, deployment, and infrastructure, and prepared weekly performance reports for investors."
+          "Architected an event-driven trading platform for realtime market data and low-latency automated execution.",
+          "Designed core trading infrastructure including market data, execution, portfolio management and operations.",
+          "Built a modular framework supporting backtesting, paper trading and live strategy execution.",
+          "Partnered with founders to design and evaluate systematic trading strategies and risk models.",
+          "Owned cloud infrastructure, CI/CD, monitoring and 24/7 reliability of production trading systems.",
+          "Led technical direction, architecture and engineering practices from company inception."
         ]
       },
       {
-        "role": "SENIOR SOFTWARE ENGINEER (TYPESCRIPT/C#)",
+        "role": "Senior Software Engineer (TypeScript/C#)",
         "company": "BNP Paribas",
         "location": "Poland, on-site",
-        "summary": "",
+        "summary": "Technical owner responsible for delivery and cross-system integration of the customer verification platform, working closely with architects, business stakeholders and engineering teams.",
         "period": "2018 - 2019",
         "responsibilities": [
-          "Led the development and maintenance of a KYC system, building microservices that automated client verification and risk assessment, along with a frontend used by analysts and operations teams. Served as the primary technical owner for the system, supporting stakeholders across the organization."
+          "Implemented distributed customer verification services supporting KYC and regulatory compliance workflows.",
+          "Collaborated with the solution architect to evolve platform architecture and deliver new capabilities.",
+          "Owned delivery of platform modules from technical planning through production deployment.",
+          "Led cross-team integrations by defining API contracts and coordinating engineering teams.",
+          "Designed workflow automation that streamlined customer verification and reduced operational overhead.",
+          "Managed CI/CD pipelines, deployments and operational readiness across development and production."
         ]
       },
       {
-        "role": "REGULAR SOFTWARE ENGINEER (C#/C++)",
+        "role": "Regular Software Engineer (C#/C++)",
         "company": "Order Group",
         "location": "Poland, on-site",
-        "summary": "",
+        "summary": "Led the technical design and development of a mission-critical navigation application supporting helicopter and aircraft flight operations.",
         "period": "2016 - 2018",
         "responsibilities": [
-          "Architected and developed a mobile navigation application for iOS and Windows to support helicopter and aircraft pilots during all flight operations. Collaborated closely with stakeholders to align the solution with real-world aviation needs and ensure reliability in mission-critical environments."
+          "Architected a cross-platform navigation application for helicopter and aircraft pilots on tablet devices.",
+          "Designed geospatial processing, route planning and realtime navigation components.",
+          "Defined application architecture balancing offline support, performance and maintainability.",
+          "Partnered with pilots and stakeholders to translate operational needs into production software.",
+          "Presented technical progress, architecture and product demos to leadership and investors."
         ]
       },
       {
-        "role": "REGULAR SOFTWARE ENGINEER (C#)",
+        "role": "Regular Software Engineer (C#)",
         "company": "Fuero Games",
         "location": "Poland, on-site",
-        "summary": "",
-        "period": "2014 - 2016",
+        "summary": "Developed networking and gameplay systems for cross-platform multiplayer games, ranging from large-scale MMO strategy titles to realtime multiplayer prototypes.",
+        "period": "2013 - 2016",
         "responsibilities": [
-          "Developed a cross-platform MMO strategy game for iOS, Android, and Facebook. Implemented network optimizations using prediction and request batching, and integrated payment providers such as Xsolla, Google Play, and the App Store to deliver seamless in-game purchasing experiences.",
-          "Developed a PoC multiplayer third-person desktop shooter for Wargaming, implementing network synchronization and replication components to deliver a smooth and engaging gameplay experience. Ensured the PoC met all technical requirements and exceeded stakeholder expectations."
-        ]
-      },
-      {
-        "role": "JUNIOR SOFTWARE DEVELOPER (C#/JAVASCRIPT)",
-        "company": "Nitreal",
-        "location": "Poland, on-site",
-        "summary": "",
-        "period": "2013 - 2014",
-        "responsibilities": [
-          "Ported a suite of flagship products from legacy technology to the Unity 3D platform, improving performance and user experience while successfully bringing a series of popular time-management strategy games from PC to mobile."
+          "Designed client-server networking systems for realtime and asynchronous multiplayer gameplay.",
+          "Optimized networking using client prediction, state replication, batching and synchronization.",
+          "Developed gameplay systems and cross-platform features for iOS, Android, Facebook and desktop.",
+          "Integrated Apple App Store, Google Play and Xsolla for authentication and in-app purchases.",
+          "Collaborated with designers, artists and engineers to deliver multiplayer features and prototypes."
         ]
       }
     ],
     "contribution": [
       {
-        "period": "2025 - present",
-        "url": "vaultance.com",
+        "period": "2026 - Present",
+        "url": "supahead.ai",
+        "summary": "Founder and engineer building a realtime AI platform that augments human communication through agentic workflows, streaming inference and context-aware assistance.",
         "responsibilities": [
-          "Researched and implemented market-neutral trading strategies on Solana. Developed automated execution infrastructure and on-chain keepers, integrating Jupiter, Drift, and Pyth for strategy execution and risk management."
+          "Architected a realtime AI platform combining speech recognition, context engineering and structured LLM outputs.",
+          "Designed reasoning pipelines for transcript analysis, contextual memory and prompt orchestration.",
+          "Built a low-latency Electron desktop application with WebSockets and a local-first architecture.",
+          "Integrated frontier LLMs through OpenRouter with realtime speech processing using Deepgram.",
+          "Designed context management using transcript compression, session memory and retrieval.",
+          "Developed an extensible AI runtime supporting reasoning modes and structured outputs."
+        ]
+      },
+      {
+        "period": "2025 - 2026",
+        "url": "vaultance.com",
+        "summary": "Research project focused on systematic investment strategies and autonomous portfolio management using decentralized financial infrastructure.",
+        "responsibilities": [
+          "Researched market-neutral strategies using blockchain investment vaults and on-chain financial protocols.",
+          "Designed automated execution, portfolio rebalancing and event-driven strategy infrastructure.",
+          "Developed risk management integrating realtime market data, pricing oracles and trading protocols.",
+          "Researched quantitative portfolio construction and yield optimization across decentralized finance."
         ]
       },
       {
         "period": "2020 - 2026",
         "url": "quantform.io",
+        "summary": "Open-source event-driven runtime for building autonomous, realtime automation systems.",
         "responsibilities": [
-          "Developed an open-source event-driven automation runtime for financial markets and crypto exchanges. Enabled reactive trading strategies through a unified TypeScript and RxJS-based framework."
-        ]
-      },
-      {
-        "period": "2016 - 2017",
-        "summary": "stealth startup",
-        "responsibilities": [
-          "Developed a secure messaging mobile application, implementing end-to-end encryption based on the Bitcoin blockchain. Built a communication protocol on top of Bitcoin to ensure strong security and data integrity for users."
+          "Designed a reactive runtime for composing event-driven workflows using RxJS and TypeScript.",
+          "Built a modular architecture for realtime data ingestion, event processing and automated execution.",
+          "Developed extensible abstractions for data sources, execution providers and automation pipelines.",
+          "Applied distributed systems and reactive programming to build low-latency autonomous applications."
         ]
       },
       {
         "period": "2015 - 2016",
         "url": "github.com/majchrzak/flurry-unity-3d",
+        "summary": "Open-source Unity plugin simplifying integration of Yahoo Flurry Analytics into mobile games.",
         "responsibilities": [
-          "Developed a Yahoo Flurry Analytics plugin for Unity 3D using C#, Java, and Objective-C, enabling developers to easily integrate analytics into their Unity-based mobile games."
+          "Developed a cross-platform Unity SDK in C#, Java and Objective-C, providing a unified interface for native analytics services on iOS and Android."
         ]
       },
       {
         "period": "2014 - 2015",
         "url": "github.com/majchrzak/storekit-unity-3d",
+        "summary": "Open-source Unity SDK for Apple's in-app purchase ecosystem.",
         "responsibilities": [
-          "Developed an Apple StoreKit plugin for Unity 3D that enables developers to easily add in-app purchase functionality to their iOS games. Implemented secure transaction handling, receipt validation, and subscription management, simplifying the process of monetizing games on the App Store."
+          "Designed and implemented a cross-language SDK bridging Unity (C#) with native iOS StoreKit APIs, simplifying in-app purchase integration for Unity developers."
         ]
       }
     ],
@@ -128,16 +160,17 @@
       "PostgreSQL",
       "Redis",
       "RabbitMQ",
-      "Kafka",
+      "RxJS",
+      "Event Sourcing",
+      "CQRS",
       "Docker",
       "AWS",
-      "RxJS",
-      "DDD",
-      "TDD",
       "CI/CD",
-      "AI-assisted Development",
-      "Claude",
-      "ChatGPT"
+      "Domain-Driven Design",
+      "Event-Driven Architecture",
+      "Distributed Systems",
+      "System Design",
+      "AI-assisted Development"
     ],
     "language": [
       {
@@ -148,7 +181,6 @@
         "name": "English",
         "summary": "Upper-intermediate proficiency"
       }
-    ],
-    "clause": "I agree to the processing of personal data provided in this document for realising the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)"
+    ]
   }
 }

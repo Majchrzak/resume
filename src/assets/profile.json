@@ -17,7 +17,7 @@
         "summary": "Technical owner of Risk & Compliance services powering regulated cryptocurrency on-ramp and off-ramp products.",
         "period": "2022 - present",
         "responsibilities": [
-          "Architected distributed backend services for KYC, AML and transaction risk assessment across internal and external systems.",
+          "Architected distributed backend services for KYC, AML and transaction risk assessment for internal and external systems.",
           "Led design and delivery of new platform capabilities with Product, Compliance and Engineering teams.",
           "Designed event-driven workflows and asynchronous pipelines to improve scalability, resilience and onboarding.",
           "Introduced event-sourcing patterns for compliance domains requiring auditability and traceability.",
@@ -41,18 +41,18 @@
         ]
       },
       {
-        "role": "Founding Engineer (TypeScript/C#)",
+        "role": "Founding Quant Research Engineer",
         "company": "HFTX",
         "location": "Poland, on-site",
-        "summary": "Founding engineer responsible for architecting and building the technology platform of a quantitative investment startup from inception to live trading, working directly with the founders across engineering, infrastructure and systematic trading.",
+        "summary": "Founding engineer responsible for building the quantitative research and algorithmic trading platform of a systematic investment startup, working directly with the founders on trading infrastructure, strategy research and production deployment.",
         "period": "2019 - 2020",
         "responsibilities": [
-          "Architected an event-driven trading platform for realtime market data and low-latency automated execution.",
-          "Designed core trading infrastructure including market data, execution, portfolio management and operations.",
-          "Built a modular framework supporting backtesting, paper trading and live strategy execution.",
-          "Partnered with founders to design and evaluate systematic trading strategies and risk models.",
-          "Owned cloud infrastructure, CI/CD, monitoring and 24/7 reliability of production trading systems.",
-          "Led technical direction, architecture and engineering practices from company inception."
+          "Designed and developed an event-driven platform for quantitative research, backtesting and live algorithmic trading.",
+          "Built low-latency trading infrastructure including market data ingestion, execution, portfolio management and risk.",
+          "Partnered with founders to research, validate and implement systematic trading strategies across cryptocurrency markets.",
+          "Developed simulation and paper-trading environments to evaluate trading ideas before production deployment.",
+          "Implemented production infrastructure, CI/CD, monitoring and operational tooling for 24/7 automated trading systems.",
+          "Led architecture and engineering decisions from company inception through live trading."
         ]
       },
       {
@@ -114,25 +114,29 @@
         ]
       },
       {
-        "period": "2025 - 2026",
+        "period": "2025 - Present",
         "url": "vaultance.com",
-        "summary": "Research project focused on systematic investment strategies and autonomous portfolio management using decentralized financial infrastructure.",
+        "summary": "Systematic trading research project focused on developing, validating and deploying quantitative strategies for cryptocurrency and prediction markets using AI-assisted research and automated execution.",
         "responsibilities": [
-          "Researched market-neutral strategies using blockchain investment vaults and on-chain financial protocols.",
-          "Designed automated execution, portfolio rebalancing and event-driven strategy infrastructure.",
-          "Developed risk management integrating realtime market data, pricing oracles and trading protocols.",
-          "Researched quantitative portfolio construction and yield optimization across decentralized finance."
+          "Researched systematic trading strategies across cryptocurrency spot, perpetual futures and prediction markets.",
+          "Designed and evaluated quantitative strategies through large-scale historical backtesting and statistical analysis.",
+          "Developed automated execution, portfolio management and risk management systems for live systematic trading.",
+          "Built AI-assisted research workflows to accelerate hypothesis generation, feature engineering and strategy evaluation.",
+          "Designed market-making, directional and event-driven trading strategies using quantitative research methodologies.",
+          "Integrated realtime market data, blockchain infrastructure and exchange APIs into production trading systems."
         ]
       },
       {
-        "period": "2020 - 2026",
+        "period": "2020 - Present",
         "url": "quantform.io",
-        "summary": "Open-source event-driven runtime for building autonomous, realtime automation systems.",
+        "summary": "Open-source quantitative research and systematic trading framework for backtesting, simulation and automated execution across financial and prediction markets.",
         "responsibilities": [
-          "Designed a reactive runtime for composing event-driven workflows using RxJS and TypeScript.",
-          "Built a modular architecture for realtime data ingestion, event processing and automated execution.",
-          "Developed extensible abstractions for data sources, execution providers and automation pipelines.",
-          "Applied distributed systems and reactive programming to build low-latency autonomous applications."
+          "Designed and developed an event-driven quantitative research framework using TypeScript, RxJS and reactive programming.",
+          "Built a high-performance backtesting engine for validating systematic trading strategies across multiple market types.",
+          "Developed abstractions for market data, execution, portfolio simulation and exchange integrations.",
+          "Implemented realtime execution infrastructure for live algorithmic trading and automated strategy deployment.",
+          "Designed extensible architecture supporting cryptocurrency exchanges, prediction markets and future trading venues.",
+          "Applied distributed systems principles to build scalable, low-latency research and trading infrastructure."
         ]
       },
       {

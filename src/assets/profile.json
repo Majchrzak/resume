@@ -8,10 +8,10 @@
       "github": "github.com/majchrzak",
       "linkedin": "linkedin.com/in/m-majchrzak"
     },
-    "about": "Senior Software Engineer with 12+ years of experience designing distributed systems, realtime platforms and high-performance backend applications across finance, healthcare, gaming and AI. Strong background in event-driven architectures and microservices, with experience leading technical initiatives from architecture and system design through production delivery. Passionate about building reliable software and applying modern AI technologies to solve complex real-world problems.",
+    "about": "Staff Software Engineer with 12+ years of experience designing distributed systems, realtime platforms and high-performance backend applications across finance, healthcare, gaming and AI. Strong background in event-driven architectures and microservices, with experience leading technical initiatives from architecture and system design through production delivery. Passionate about building reliable software and applying modern AI technologies to solve complex real-world problems.",
     "experience": [
       {
-        "role": "Senior Software Engineer (TypeScript)",
+        "role": "Staff Software Engineer (TypeScript)",
         "company": "Ramp Network",
         "location": "United Kingdom, remote",
         "summary": "Technical owner of Risk & Compliance services powering regulated cryptocurrency on-ramp and off-ramp products.",
@@ -41,7 +41,7 @@
         ]
       },
       {
-        "role": "Founding Quant Research Engineer",
+        "role": "Founding Engineer (TypeScript/C#)",
         "company": "HFTX",
         "location": "Poland, on-site",
         "summary": "Founding engineer responsible for building the quantitative research and algorithmic trading platform of a systematic investment startup, working directly with the founders on trading infrastructure, strategy research and production deployment.",
@@ -56,7 +56,7 @@
         ]
       },
       {
-        "role": "Senior Software Engineer (TypeScript/C#)",
+        "role": "Senior Software Engineer (C#)",
         "company": "BNP Paribas",
         "location": "Poland, on-site",
         "summary": "Technical owner responsible for delivery and cross-system integration of the customer verification platform, working closely with architects, business stakeholders and engineering teams.",
